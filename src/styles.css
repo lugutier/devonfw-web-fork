@@ -1,23 +1,33 @@
 /* You can add global styles to this file, and also import other style files */
+@import '../src/app/framework/framework.component.css';
+@import '../src/app/devonfw/devonfw.component.css';
+@import '../src/app/oasp/oasp.component.css';
+@import '../src/app/try-it/try-it.component.css';
+@import '../src/app/getting-started/getting-started.component.css';
+@import '../src/app/used-technologies/used-technologies.component.css';
+@import '../src/app/oasp4-j/oasp4-j.component.css';
+@import '../src/app/oasp4-js/oasp4-js.component.css';
+@import '../src/app/tab-panel/tab-panel.component.css';
+@import '../src/app/slider/slider.component.css';
 
 @font-face {
   font-family: Montserrat-Regular;
-  src: url("./assets/fonts/Montserrat-Regular.ttf")
+  src: url('./assets/fonts/Montserrat-Regular.ttf');
 }
 
 @font-face {
   font-family: Montserrat-Bold;
-  src: url("./assets/fonts/Montserrat-Bold.ttf")
+  src: url('./assets/fonts/Montserrat-Bold.ttf');
 }
 
 @font-face {
   font-family: montserrat-light;
-  src: url("./assets/fonts/Montserrat-Light.ttf")
+  src: url('./assets/fonts/Montserrat-Light.ttf');
 }
 
 @font-face {
   font-family: montserrat-Extralight;
-  src: url("./assets/fonts/Montserrat-ExtraLight.ttf")
+  src: url('./assets/fonts/Montserrat-ExtraLight.ttf');
 }
 
 .navbar-light .navbar-toggler {
@@ -62,25 +72,25 @@
 }
 
 .btn-primary.btn-white {
-  border-color: #FFFFFF;
-  color: #FFFFFF;
+  border-color: #ffffff;
+  color: #ffffff;
 }
 
 .btn-primary.btn-white:hover {
-  border-color: #FFFFFF;
+  border-color: #ffffff;
   color: #4bbdec;
-  background-color: #FFFFFF;
+  background-color: #ffffff;
 }
 
 .btn-primary.btn-dark {
   border-color: #222c38;
-  color: #FFFFFF;
+  color: #ffffff;
   background-color: #222c38;
 }
 
 .btn-primary.btn-dark:hover {
   border-color: #11161c;
-  color: rgba(255, 255, 255, .95);
+  color: rgba(255, 255, 255, 0.95);
   background-color: #11161c;
 }
 
@@ -98,7 +108,7 @@ hr {
 }
 
 .markdown h2::after {
-  content: "";
+  content: '';
   display: block;
   position: relative;
   margin: 10px auto 0px;
@@ -132,7 +142,7 @@ hr {
   font-family: Montserrat-Regular;
   font-style: normal;
   cursor: pointer;
-  transition: all .2s ease-in-out;
+  transition: all 0.2s ease-in-out;
 }
 
 .modal-header {
@@ -158,7 +168,7 @@ hr {
 
 @media (max-width: 900px) {
   nav.navbar {
-    background-color: #4bbdec!important;
+    background-color: #4bbdec !important;
   }
   .markdown a:last-of-type {
     margin-left: 0px;
@@ -169,14 +179,3 @@ hr {
     height: auto;
   }
 }
-
-@import '../src/app/framework/framework.component.css';
-@import '../src/app/devonfw/devonfw.component.css';
-@import '../src/app/oasp/oasp.component.css';
-@import '../src/app/try-it/try-it.component.css';
-@import '../src/app/getting-started/getting-started.component.css';
-@import '../src/app/used-technologies/used-technologies.component.css';
-@import '../src/app/oasp4-j/oasp4-j.component.css';
-@import '../src/app/oasp4-js/oasp4-js.component.css';
-@import '../src/app/tab-panel/tab-panel.component.css';
-@import '../src/app/slider/slider.component.css';
