@@ -31,6 +31,11 @@
   margin: 5px;
 }
 
+.nav-item
+{
+  text-align:center;
+  vertical-align: middle;
+}
 .navbar-light .navbar-nav .nav-link:hover {
   /*text-shadow: 1px 1px 1px #207090;*/
   color: rgba(255, 255, 255, .5);
@@ -56,10 +61,4 @@ img {
 }
 .cg_internal, .nav>li>a.cg_internal {
   display: none;
-}
-
-.cg_internal.btn.btn-primary, .cg_internal.btn.btn-primary:hover {
-	background-color:#49BDEA !important;
-	color:#FFFFFF !important;
-	margin-left:10px;
 }
