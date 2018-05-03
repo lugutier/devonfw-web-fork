@@ -6,83 +6,61 @@
 
   <div class="collapse navbar-collapse" id="navbarSupportedContent" [ngbCollapse]="isCollapsed">
     <ul class="navbar-nav ml-auto">
-      <li class="dropdown" routerLinkActive="active">
-        <a data-toggle="dropdown" class="nav-link dropdown-toggle" [routerLink]="['/oasp']">
-          About
-        </a>
-        <ul class="dropdown-menu">
-            <li><a href="#">Overview</a></li>
-            <li><a href="#">iCSD Initiative</a></li>
-            <li><a href="#">Production Line</a></li>
-        </ul>
-      </li>    
-      <li class="dropdown" routerLinkActive="active">
-          <a data-toggle="dropdown" class="nav-link dropdown-toggle" (click)="isCollapsed = !isCollapsed" [routerLink]="['/why-devonfw']">
-            Why Devonfw
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp']">
+          OASP
           </a>
-          <ul class="dropdown-menu">
-              <li><a href="#">Featured</a></li>
-              <li><a href="#">Core Products & Modules</a></li>
-              <li><a href="#">Technology Stack</a></li>
-              <li><a href="#">Roadmap & Releases</a></li>
-              <li><a href="#">Showcases & Incubator</a></li>
-              <li><a href="#">APPS2 Industrialization catalog</a></li>
-          </ul>
-        </li>  
-      <li class="dropdown" routerLinkActive="active">
-        <a data-toggle="dropdown" class="nav-link dropdown-toggle" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-j']">
-          For Java
-        </a>
-        <ul class="dropdown-menu">
-            <li><a href="#"> OASP4J </a></li>
-            <li><a href="#">OASP4Fn</a></li>
-        </ul>
       </li>
-      <li class="dropdown" routerLinkActive="active">
-        <a data-toggle="dropdown" class="nav-link dropdown-toggle" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-js']">
-          For JavaScript
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-j']">
+          OASP4J
           </a>
-          <ul class="dropdown-menu">
-              <li><a href="#">OASP4JS</a></li>
-              <li><a href="#">Devon4Sencha</a></li>
-          </ul>
       </li>
-      <li class="dropdown" routerLinkActive="active">
-        <a data-toggle="dropdown" class="nav-link dropdown-toggle" (click)="isCollapsed = !isCollapsed" [routerLink]="['/documentation']">
-          Documentation
+      <li class="nav-item" routerLinkActive="active">
+        <a class="nav-link" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-js']">
+          OASP4JS
           </a>
-          <ul class="dropdown-menu">
-              <li><a href="#">Getting Started Guides</a></li>
-              <li><a href="#">Architecture</a></li>
-              <li><a href="#">Complete Devonfw Guide</a></li>
-              <li><a href="#">Downloads</a></li>
-              <li><a href="#">GitHub Repositories</a></li>
-              <li><a href="#">Video Tutorials</a></li>
-              <li><a href="#">License Policy</a></li>          
-          </ul>
       </li>
-      <li class="dropdown" routerLinkActive="active">
-        <a data-toggle="dropdown" class="nav-link dropdown-toggle" (click)="isCollapsed = !isCollapsed" [routerLink]="['/Community']">
-          Community
-          </a>
-          <ul class="dropdown-menu">
-              <li><a href="#">Contributing to devonfw</a></li>
-              <li><a href="#">Collaborate</a></li>
-              <li><a href="#">OASP Technology Stacks</a></li>
-              <li><a href="#">Newsletter & Webcast</a></li>
-              <li><a href="#">Sounding Board Meeting</a></li>
-          </ul>
+      <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link cg_internal" (click)="isCollapsed = !isCollapsed" href="https://troom.capgemini.com/sites/vcc/devon/overview.aspx">
+              Overview
+            </a>
       </li>
-      <li class="dropdown" routerLinkActive="active">
-        <a data-toggle="dropdown" class="nav-link dropdown-toggle" (click)="isCollapsed = !isCollapsed" [routerLink]="['/Community']">
-          Help & Support
+      <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link cg_internal" (click)="isCollapsed = !isCollapsed"  href="https://troom.capgemini.com/sites/vcc/devon/roadmap.aspx">
+            Roadmap & Releases
           </a>
-          <ul class="dropdown-menu">
-              <li><a href="#">Contact Us</a></li>
-              <li><a href="#">Training Hub</a></li>
-              <li><a href="#">Sales & Marketing</a>
-              <li><a href="#">FAQ</a></li>
-          </ul>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link cg_internal" (click)="isCollapsed = !isCollapsed"  href="https://troom.capgemini.com/sites/vcc/devon/ipcatalog.aspx">
+            IP catalog
+          </a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link cg_internal" (click)="isCollapsed = !isCollapsed"  href="https://troom.capgemini.com/sites/vcc/devon/collaboration.aspx">
+            Community
+          </a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link cg_internal" (click)="isCollapsed = !isCollapsed"  href="https://troom.capgemini.com/sites/vcc/devon/references.aspx">
+            Sales & Marketing
+          </a>
+      </li>
+     
+      <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link cg_internal" (click)="isCollapsed = !isCollapsed"  href="https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx">
+            Training hub
+          </a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link cg_internal" (click)="isCollapsed = !isCollapsed"  href="https://troom.capgemini.com/sites/vcc/devon/faq.aspx">
+            FAQs
+          </a>
+      </li>
+      <li class="nav-item" routerLinkActive="active">
+          <a class="nav-link cg_internal" (click)="isCollapsed = !isCollapsed"  href="https://troom.capgemini.com/sites/vcc/devon/getstarted.aspx">
+            Getting started
+          </a>
       </li>
       <!--<li class="nav-item" routerLinkActive="active">
           <a class="nav-link"
