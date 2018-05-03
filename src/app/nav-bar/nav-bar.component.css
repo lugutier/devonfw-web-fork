@@ -28,9 +28,14 @@
 .navbar-light .navbar-nav .nav-link {
   color: #FFFFFF;
   font-family: Montserrat-Regular;
-  margin: 13px;
+  margin: 5px;
 }
 
+.nav-item
+{
+  text-align:center;
+  vertical-align: middle;
+}
 .navbar-light .navbar-nav .nav-link:hover {
   /*text-shadow: 1px 1px 1px #207090;*/
   color: rgba(255, 255, 255, .5);
@@ -53,4 +58,7 @@ img {
     height: 64px;
   }
 
+}
+.cg_internal, .nav>li>a.cg_internal {
+  display: none;
 }
