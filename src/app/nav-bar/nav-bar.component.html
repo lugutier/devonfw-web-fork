@@ -17,17 +17,23 @@
         <a class="dropdown-toggle" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Technology Stack
         </a>
-        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
-          <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp']">
-            OASP
-          </a>
-          <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-j']">
-            OASP4J
-          </a>
-          <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-js']">
-            OASP4JS
-          </a>
-        </div>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">     
+            <li>
+              <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp']">
+                OASP
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-j']">
+                OASP4J
+              </a>
+            </li>
+            <li>
+              <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-js']">
+                OASP4JS
+              </a>
+            </li>
+        </ul>
       </li>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link cg_internal" (click)="isCollapsed = !isCollapsed" href="https://troom.capgemini.com/sites/vcc/devon/roadmap.aspx">
