@@ -26,6 +26,7 @@ import { NgbModalComponent } from './ngb-modal/ngb-modal.component';
 import { NgbModalCollaborationComponent } from './ngb-modal-collaboration/ngb-modal-collaboration.component';
 import { Oasp4FnComponent } from './oasp4-fn/oasp4-fn.component';
 import { TermsOfUseComponent } from './terms-of-use/terms-of-use.component';
+import { WhyDevonfwComponent } from './why-devonfw/why-devonfw.component';
 
 const routes: Routes = [
   { path: '', redirectTo: 'oasp', pathMatch: 'full' },
@@ -60,6 +61,7 @@ const routes: Routes = [
     NgbModalCollaborationComponent,
     Oasp4FnComponent,
     TermsOfUseComponent,
+    WhyDevonfwComponent,
   ],
   imports: [
     BrowserModule,
