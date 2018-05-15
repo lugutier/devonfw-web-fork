@@ -1,6 +1,6 @@
 .about {
-  background: url("../../assets/images/on_the_flexible_solution.png")0px 540px, url("../../assets/images/corte_2.png") -695px -300px;
-  background-size: 180%;
+  background: url("../../assets/images/on_the_flexible_solution.png")0px 540px, url("../../assets/images/corte_2.png") -500px 250px;
+  background-size: contain;
   background-repeat: no-repeat;
   box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
   padding: 40px 0px 30px;

@@ -22,6 +22,15 @@
   font-weight: 500;
 }
 
+.OASP .markdown h4 {
+  color: white;
+  font-family: montserrat-Regular;
+  font-size: 16pt;
+  line-height: 28pt;
+  border-bottom: white 6px;
+  width: 30%;
+  border-bottom-style: solid;
+}
 .OASP .markdown h2::after {
   display: none;
 }
