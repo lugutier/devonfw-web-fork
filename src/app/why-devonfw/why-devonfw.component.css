@@ -1,3 +1,8 @@
+.markdown {
+  color: #ffffff;
+  text-align: left;
+}
+
 .row
 {
   text-align: left;
@@ -6,12 +11,12 @@
 
 .title-head
 {
-  padding-top: 50px;
+  padding-top: 150px;
   color: #ffffff;
   font-family: montserrat-regular;
   font-size: 32px;
   text-align: left;
-  margin-bottom: 30px;
+  margin-bottom: 10px;
 }
 
 img
@@ -20,10 +25,20 @@ img
   width:55px;
 }
 
-.why-devonfw .markdown h2 {
-  color: white;
-  font-family: montserrat-Regular;
-  font-size: 24pt;
-  line-height: 28pt;
-  font-weight: 500;
+@media (min-width: 768px) and (max-width: 1023px) {
+ 
+}
+
+@media (max-width: 767px) {
+  .text-xs-center {
+    text-align: center;
+  }
+}
+
+
+@media (max-width: 1280px) {
+
+  .text-xs-center {
+    text-align: center 
+  }
 }

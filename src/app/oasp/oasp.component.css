@@ -63,3 +63,29 @@
   }
 }
 
+
+@media (min-width: 950px) and (max-width: 1280px) {
+
+  .text-xs-center {
+    text-align: center;    
+  }
+
+  .OASP p {
+    text-align: center;
+    margin-left: 40%;
+    width: 100%;
+  }
+  .OASP h2 {
+    text-align: center;
+    margin-left: 40%;
+    width: 100%;
+  }
+  
+  .OASP {
+    background: url("../../assets/images/img_1.png") center center no-repeat;
+    background-color: #4bbdec;
+    background-size: 500%;
+    text-align: center;
+  }
+}
+
