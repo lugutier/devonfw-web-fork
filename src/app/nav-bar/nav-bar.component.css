@@ -74,7 +74,9 @@ img {
 .dropdown-menu
 { 
   background-color: #4bbdec;  
-  margin-right:-300px;
+  margin-right:-1000px;
+  border: transparent;
+  margin-left: 150%;
 }
 
 /* horizontal dropdown menu*/
@@ -92,6 +94,7 @@ img {
 .dropdown-item:hover
 {
   color: gray;
+  border: none;
 }
 
 .dropdown-toggle::after {
