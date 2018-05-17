@@ -28,7 +28,7 @@
 .navbar-light .navbar-nav .nav-link {
   color: #FFFFFF;
   font-family: Montserrat-Regular;
-  font-size: 15px;
+  font-size: 14px;
   margin: 5px;
 }
 
@@ -86,8 +86,7 @@ img {
 {
   color: #ffffff;
   font-family: Montserrat-Regular;
-  font-size: 15px;
-  border: none;
+  font-size: 14px;
 }
 
 .dropdown-item:hover
@@ -108,7 +107,6 @@ img {
     width: 114px;
     height: 64px;
   }
-
 }
 
 @media only screen and (max-width: 768px) {
@@ -120,5 +118,6 @@ img {
   img {
     width: 114px;
     height: 64px;
-  }
+  } 
+  
 }

@@ -22,6 +22,15 @@
   font-weight: 500;
 }
 
+.OASP .markdown h4 {
+  color: white;
+  font-family: montserrat-Regular;
+  font-size: 16pt;
+  line-height: 28pt;
+  border-bottom: white 6px;
+  width: 30%;
+  border-bottom-style: solid;
+}
 .OASP .markdown h2::after {
   display: none;
 }
@@ -51,6 +60,32 @@
     background: url("../../assets/images/img_1.png") center center no-repeat;
     background-color: #4bbdec;
     background-size: 500%;
+  }
+}
+
+
+@media (min-width: 950px) and (max-width: 1280px) {
+
+  .text-xs-center {
+    text-align: center;    
+  }
+
+  .OASP p {
+    text-align: center;
+    margin-left: 40%;
+    width: 100%;
+  }
+  .OASP h2 {
+    text-align: center;
+    margin-left: 40%;
+    width: 100%;
+  }
+  
+  .OASP {
+    background: url("../../assets/images/img_1.png") center center no-repeat;
+    background-color: #4bbdec;
+    background-size: 500%;
+    text-align: center;
   }
 }
 
