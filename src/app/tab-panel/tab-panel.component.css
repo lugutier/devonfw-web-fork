@@ -98,29 +98,41 @@ li {
   outline: none;
 }
 
+.about .markdown h3{
+  color: black;
+}
+.about .markdown h3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 15px;
+  margin: 20px 0px;
+  width: 15%;
+  background-color: white;
+  height: 4px;
+}
+
 .about .markdown h4 {
   color: black;
   font-family: montserrat-Regular;
-  font-size: 16pt;
-  border-bottom: white 6px;
-  border-bottom-style: solid;
+  font-size: 16pt;  
 }
 
 .about .markdown p{
   color: black !important;
   font-size: 12pt;
-  font-family: montserrat-light;
+  font-family: montserrat-Regular;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 200;
   line-height: 20pt;
 }
 
 .about .markdown li{
   color: black !important;
   font-size: 12pt;
-  font-family: montserrat-light;
+  font-family: montserrat-Regular;
   font-style: normal;
-  font-weight: bold;
+  font-weight: 200;
   line-height: 16pt;
   padding: 20px 0px;
   list-style-type: square;
