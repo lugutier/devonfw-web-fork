@@ -19,16 +19,39 @@
   color: black;
   font-family: montserrat-regular;
   font-size: 32px;
-  text-align: left;  
+  text-align: left;
 }
 
 .title-head-line
 {
   width: 70px;
-  border-bottom: 4px solid #4bbdec; 
+  border-bottom: 4px solid #4bbdec;
+  margin: 10px;
 }
 img
 {
   height:52px;
   width:55px;
+}
+
+@media (max-width: 991px) {
+  .col-md-1{
+    margin-right: 7px;
+  }
+  .title-head-line{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
+}
+
+@media only screen and (max-width: 768px) {
+  .col-md-1{
+    margin-right: 7px;
+  }
+  .title-head-line{
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+  }
+
 }
