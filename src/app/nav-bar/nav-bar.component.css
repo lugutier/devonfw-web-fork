@@ -34,14 +34,13 @@
 }
 
 /* vertical bar between menu items*/
-.navbar-nav>li{
+.span-bar{
   border-right: 1px solid white;
-  height: 30px;
+  height: 25px;
 }
 
-/* no vertical bar after last menu item*/
-.navbar-nav>li:last-child{
-  border: none;
+.no-bars.active{
+  border-bottom: 3px solid #ffffff;
 }
 
 .dropdown-toggle

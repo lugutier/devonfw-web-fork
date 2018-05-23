@@ -18,6 +18,7 @@ export class NavBarComponent implements OnInit {
   }
 
   ngOnInit() {
+
         $.ajax({
           url: 'https://troom.capgemini.com/sites/vcc/devon/overview.aspx',
           dataType: 'jsonp',
@@ -26,9 +27,12 @@ export class NavBarComponent implements OnInit {
           error: function(hrx, textStatus, error) {
             if (textStatus === 'parsererror') {
               $('.cg_internal').show();
+              $('.extern').hide();
               $('[data-cap-href]').each(function() {
                 $(this).attr('href', $(this).data('cap-href'));
               });
+            } else {
+              $('.extern').show();
             }
           }
         });

@@ -13,78 +13,103 @@
           Overview
         </a>
       </li>
+      <div class="span-bar cg_internal"></div>
       <li class="nav-item dropdown" routerLinkActive="active">
-        <a class="dropdown-toggle" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+        <a class="dropdown-toggle cg_internal" id="dropdownMenuButton" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
           Technology Stack
         </a>
-        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">     
-            <li>
-              <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp']">
-                OASP
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-j']">
-                OASP4J
-              </a>
-            </li>
-            <li>
-              <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-js']">
-                OASP4JS
-              </a>
-            </li>
+        <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <li>
+            <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp']">
+              OASP
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-j']">
+              OASP4J
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-js']">
+              OASP4JS
+            </a>
+          </li>
         </ul>
       </li>
+      <div class="span-bar cg_internal"></div>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link cg_internal" href="https://troom.capgemini.com/sites/vcc/devon/roadmap.aspx">
           Roadmap & Releases
         </a>
       </li>
+      <div class="span-bar cg_internal"></div>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link cg_internal" href="https://troom.capgemini.com/sites/vcc/devon/ipcatalog.aspx">
           IP catalog
         </a>
       </li>
+      <div class="span-bar cg_internal"></div>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link cg_internal" href="https://troom.capgemini.com/sites/vcc/devon/collaboration.aspx">
           Community
         </a>
       </li>
+      <div class="span-bar cg_internal"></div>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link cg_internal" href="https://troom.capgemini.com/sites/vcc/devon/references.aspx">
           Sales & Marketing
         </a>
       </li>
-
+      <div class="span-bar cg_internal"></div>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link cg_internal" href="https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx">
           Training hub
         </a>
       </li>
+      <div class="span-bar cg_internal"></div>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link cg_internal" href="https://troom.capgemini.com/sites/vcc/devon/faq.aspx">
           FAQs
         </a>
       </li>
+      <div class="span-bar cg_internal"></div>
       <li class="nav-item" routerLinkActive="active">
         <a class="nav-link cg_internal" href="https://troom.capgemini.com/sites/vcc/devon/getstarted.aspx">
           Getting started
         </a>
       </li>
       <!--<li class="nav-item" routerLinkActive="active">
-          <a class="nav-link"
-          (click)="isCollapsed = !isCollapsed"
-          [routerLink]="['/oasp4net']">
-          OASP4NET
-          </a>
+            <a class="nav-link"
+            (click)="isCollapsed = !isCollapsed"
+            [routerLink]="['/oasp4net']">
+            OASP4NET
+            </a>
+        </li>
+         <li class="nav-item" routerLinkActive="active">
+            <a class="nav-link"
+            (click)="isCollapsed = !isCollapsed"
+            [routerLink]="['/more']">
+            More
+            </a>
+        </li>-->
+
+    </ul>
+    <ul class="navbar-nav ml-auto">
+      <li class="extern nav-item no-bars" routerLinkActive="active">
+        <a class="nav-link" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp']">
+          OASP
+        </a>
       </li>
-       <li class="nav-item" routerLinkActive="active">
-          <a class="nav-link"
-          (click)="isCollapsed = !isCollapsed"
-          [routerLink]="['/more']">
-          More
-          </a>
-      </li>-->
+      <li class="extern nav-item no-bars" routerLinkActive="active">
+        <a class="nav-link" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-j']">
+          OASP4J
+        </a>
+      </li>
+      <li class="extern nav-item no-bars" routerLinkActive="active">
+        <a class="nav-link" (click)="isCollapsed = !isCollapsed" [routerLink]="['/oasp4-js']">
+          OASP4JS
+        </a>
+      </li>
 
     </ul>
   </div>
