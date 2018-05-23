@@ -100,6 +100,8 @@ li {
 
 .about .markdown h3{
   color: black;
+  font-size: 16pt;
+  margin-bottom: 30px;
 }
 .about .markdown h3::after {
   content: "";
@@ -115,7 +117,7 @@ li {
 .about .markdown h4 {
   color: black;
   font-family: montserrat-Regular;
-  font-size: 16pt;  
+  font-size: 16pt; 
 }
 
 .about .markdown p{
@@ -124,7 +126,7 @@ li {
   font-family: montserrat-Regular;
   font-style: normal;
   font-weight: 200;
-  line-height: 20pt;
+  line-height: 30pt;
 }
 
 .about .markdown li{
@@ -133,9 +135,9 @@ li {
   font-family: montserrat-Regular;
   font-style: normal;
   font-weight: 200;
-  line-height: 16pt;
   padding: 20px 0px;
   list-style-type: square;
+  line-height: 15pt;
 }
 
 @media (max-width: 767px) {

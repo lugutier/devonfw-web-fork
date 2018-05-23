@@ -39,6 +39,10 @@
   height: 25px;
 }
 
+.no-bars.active{
+  border-bottom: 3px solid #ffffff;
+}
+
 .dropdown-toggle
 {
   font-family: Montserrat-Regular;
