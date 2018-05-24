@@ -10,14 +10,6 @@
   box-shadow: 0px 1px 3px 0px rgba(0, 0, 0, 0.10);
 }
 
-
-.navbar .active {
-  /*background: #FFFFFF;
-  border-radius: 4px;
-  transition: all 300ms;
-  border-bottom: 4px solid #ffffff;*/
-}
-
 .navbar .active .nav-link {
   color: #ffffff !important;
 }
@@ -34,29 +26,30 @@
 }
 
 /* vertical bar between menu items*/
-.span-bar{
+
+.span-bar {
   border-right: 1px solid white;
   height: 25px;
 }
 
-.no-bars.active{
+/* underline for external menu items*/
+
+.no-bars.active {
   border-bottom: 3px solid #ffffff;
 }
 
-.dropdown-toggle
-{
+.dropdown-toggle {
   font-family: Montserrat-Regular;
   color: #ffffff !important;
   font-size: 14px;
 }
 
-.nav-item
-{
-  text-align:center;
+.nav-item {
+  text-align: center;
   vertical-align: middle;
 }
 
-.navbar-light .navbar-nav .nav-link:hover{
+.navbar-light .navbar-nav .nav-link:hover {
   /*text-shadow: 1px 1px 1px #207090;*/
   color: rgba(255, 255, 255, .5);
   transition: all .2s ease-in-out;
@@ -71,64 +64,177 @@ img {
   display: none;
 }
 
-.dropdown-menu
-{
+.dropdown-menu {
   background-color: #4bbdec;
-  margin-right:-1000px;
+  margin-right: -1000px;
   border: transparent;
   margin-left: 150%;
 }
 
 /* horizontal dropdown menu*/
-.dropdown-menu > li {
+
+.dropdown-menu>li {
   display: inline-block;
 }
 
-.dropdown-item
-{
+.dropdown-item {
   color: #ffffff;
   font-family: Montserrat-Regular;
   font-size: 14px;
 }
 
-.dropdown-item:hover
-{
+.dropdown-item:hover {
   color: gray;
   border: none;
 }
 
 .dropdown-toggle::after {
-  display:none;
+  display: none;
 }
 
-@media (max-width: 991px) {
+/* ---------------------- ---------------------- Responsive UI -------------------------------------------- */
+
+/* ----------- Mobile S----------- */
+
+@media only screen and (min-device-width: 320px) and (max-device-width: 604px) {
   .collapse.navbar-collapse.show {
     margin-top: 12px;
   }
-
   img {
     width: 114px;
     height: 64px;
   }
-
-  .navbar-nav>li{
+  .span-bar {
     border-right: none;
+    height: 20px;
+  }
+  .dropdown-menu {
+    background-color: #4bbdec;
+    margin-right: -150px;
+    border: transparent;
+    margin-left: -50px;
   }
 }
 
-@media only screen and (max-width: 768px) {
-  /* For mobile phones: */
+/* ----------- Mobile M ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 375px) and (max-device-width: 604px) and (-webkit-min-device-pixel-ratio: 2) {
   .collapse.navbar-collapse.show {
     margin-top: 12px;
   }
-
   img {
     width: 114px;
     height: 64px;
   }
-
-  .navbar-nav>li{
+  .span-bar {
     border-right: none;
+    height: 20px;
   }
+  .dropdown-menu {
+    background-color: #4bbdec;
+    margin-right: -200px;
+    border: transparent;
+    margin-left: -25px;
+  }
+}
 
+/* ----------- Mobile L----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 425px) and (max-device-width: 604px) and (-webkit-min-device-pixel-ratio: 2) {
+  .collapse.navbar-collapse.show {
+    margin-top: 12px;
+  }
+  img {
+    width: 114px;
+    height: 64px;
+  }
+  .span-bar {
+    border-right: none;
+    height: 20px;
+  }
+  .dropdown-menu {
+    background-color: #4bbdec;
+    margin-right: -170px;
+    border: transparent;
+    margin-left: -10px;
+  }
+}
+
+/* ----------- Tablet----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 768px) and (max-device-width: 1024px) and (-webkit-min-device-pixel-ratio: 1) {
+  .collapse.navbar-collapse.show {
+    margin-top: 12px;
+  }
+  img {
+    width: 114px;
+    height: 64px;
+  }
+  .span-bar {
+    border-right: none;
+    height: 20px;
+  }
+  .dropdown-menu {
+    background-color: #4bbdec;
+    margin-right: 10px;
+    border: transparent;
+    margin-left: 180px;
+  }
+}
+
+/* ----------------------  ---------------------- Other Devices  ---------------------- ---------------------- */
+
+/* ----------- iPad Pro 12.9" ----------- */
+
+/* Portrait and Landscape */
+
+@media only screen and (min-device-width: 1024px) and (max-device-width: 1366px) and (-webkit-min-device-pixel-ratio: 2) {
+  .collapse.navbar-collapse.show {
+    margin-top: 5px;
+  }
+  .navbar-light .navbar-nav .nav-link {
+    color: #FFFFFF;
+    font-family: Montserrat-Regular;
+    font-size: 10px;
+    margin: 1px;
+  }
+  /* vertical bar between menu items*/
+  .span-bar {
+    border-right: 1px solid white;
+    height: 30px;
+  }
+  .dropdown-toggle {
+    font-family: Montserrat-Regular;
+    color: #ffffff !important;
+    font-size: 10px;
+  }
+  .navbar-brand {
+    width: 90px;
+    height: 100px;
+  }
+  img {
+    width: 100px;
+    height: 60px;
+  }
+  /* horizontal dropdown menu*/
+  .dropdown-menu>li {
+    display: inline-block;
+  }
+  .dropdown-menu {
+    background-color: #4bbdec;
+    margin-right: -1000px;
+    border: transparent;
+    margin-left: 150px;
+  }
+  .dropdown-item {
+    color: #ffffff;
+    font-family: Montserrat-Regular;
+    font-size: 10px;
+  }
 }
