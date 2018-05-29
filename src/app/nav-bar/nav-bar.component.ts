@@ -23,7 +23,7 @@ export class NavBarComponent implements OnInit {
           url: 'https://troom.capgemini.com/sites/vcc/devon/overview.aspx',
           dataType: 'jsonp',
           method: 'GET',
-          timeout: 3000,
+          timeout: 2000,
           error: function(hrx, textStatus, error) {
             if (textStatus === 'parsererror') {
               $('.cg_internal').show();
