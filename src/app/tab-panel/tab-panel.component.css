@@ -139,8 +139,21 @@ li {
   line-height: 15pt;
 }
 
-.more-info {
-  margin-left: 1100px;
+.btn{
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 70px;
+  font-size: 10pt;
+  border-width: 2px;
+  font-family: Montserrat-Regular;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 10px;
 }
 
 /*---------------------- ---------------------- Responsive UI -------------------------------------------- */
