@@ -156,6 +156,11 @@ li {
   margin-left: 10px;
 }
 
+.img{
+  height: 80%;
+  width: 100%;
+}
+
 /*---------------------- ---------------------- Responsive UI -------------------------------------------- */
 
 @media (max-width: 767px) {
@@ -272,7 +277,7 @@ li {
 /* Full HD 1080x1920 (Google Pixel 2 in Chrome) and QHD 1440x2560 (Google Pixel 2 XL in Chrome)  */
 
 @media only screen and (min-width: 411px) and (max-width: 731px) {
- 
+
 }
 
 /* ----------- Tablet (iPad)----------- */
