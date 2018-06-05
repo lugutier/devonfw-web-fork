@@ -21,7 +21,7 @@ import { FrameworkComponent } from './framework/framework.component';
 import { DevonfwComponent } from './devonfw/devonfw.component';
 import { UniversityActivitiesComponent } from './university-activities/university-activities.component';
 import { SliderComponent } from './slider/slider.component';
-import { MarkdownModule } from 'angular2-markdown';
+import { MarkdownModule } from 'ngx-md';
 import { NgbModalComponent } from './ngb-modal/ngb-modal.component';
 import { NgbModalCollaborationComponent } from './ngb-modal-collaboration/ngb-modal-collaboration.component';
 import { Oasp4FnComponent } from './oasp4-fn/oasp4-fn.component';
@@ -72,6 +72,6 @@ const routes: Routes = [
     MarkdownModule.forRoot(),
   ],
   providers: [],
-  bootstrap: [AppComponent]
+  bootstrap: [AppComponent],
 })
-export class AppModule { }
+export class AppModule {}

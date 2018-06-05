@@ -192,6 +192,10 @@
   version "2.8.6"
   resolved "https://registry.yarnpkg.com/@types/jasmine/-/jasmine-2.8.6.tgz#14445b6a1613cf4e05dd61c3c3256d0e95c0421e"
 
+"@types/jquery@^3.3.1":
+  version "3.3.2"
+  resolved "https://registry.yarnpkg.com/@types/jquery/-/jquery-3.3.2.tgz#8700226bdde24b6f98e3a60126dbaab3b2a3ab41"
+
 "@types/node@^6.0.46", "@types/node@~6.0.60":
   version "6.0.85"
   resolved "https://registry.yarnpkg.com/@types/node/-/node-6.0.85.tgz#ec02bfe54a61044f2be44f13b389c6a0e8ee05ae"
@@ -343,13 +347,6 @@ amqplib@^0.5.2:
     buffer-more-ints "0.0.2"
     readable-stream "1.x >=1.1.9"
     safe-buffer "^5.0.1"
-
-angular2-markdown@^2.2.0:
-  version "2.2.3"
-  resolved "https://registry.yarnpkg.com/angular2-markdown/-/angular2-markdown-2.2.3.tgz#a4eb0492981431e319603b7416a1b89011123ed0"
-  dependencies:
-    marked "^0.3.6"
-    prismjs "^1.8.4"
 
 ansi-html@0.0.7:
   version "0.0.7"
@@ -836,6 +833,10 @@ boom@5.x.x:
   resolved "https://registry.yarnpkg.com/boom/-/boom-5.2.0.tgz#5dd9da6ee3a5f302077436290cb717d3f4a54e02"
   dependencies:
     hoek "4.x.x"
+
+bootstrap@^4.1.1:
+  version "4.1.1"
+  resolved "https://registry.yarnpkg.com/bootstrap/-/bootstrap-4.1.1.tgz#3aec85000fa619085da8d2e4983dfd67cf2114cb"
 
 brace-expansion@^1.1.7:
   version "1.1.8"
@@ -3705,6 +3706,10 @@ jasminewd2@^2.1.0:
   version "2.1.0"
   resolved "https://registry.yarnpkg.com/jasminewd2/-/jasminewd2-2.1.0.tgz#da595275d1ae631de736ac0a7c7d85c9f73ef652"
 
+jquery@^3.3.1:
+  version "3.3.1"
+  resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.3.1.tgz#958ce29e81c9790f31be7792df5d4d95fc57fbca"
+
 js-base64@^2.1.8:
   version "2.1.9"
   resolved "https://registry.yarnpkg.com/js-base64/-/js-base64-2.1.9.tgz#f0e80ae039a4bd654b5f281fc93f04a914a7fcce"
@@ -4178,9 +4183,9 @@ map-visit@^1.0.0:
   dependencies:
     object-visit "^1.0.0"
 
-marked@^0.3.6:
-  version "0.3.6"
-  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.6.tgz#b2c6c618fccece4ef86c4fc6cb8a7cbf5aeda8d7"
+marked@^0.3.9:
+  version "0.3.19"
+  resolved "https://registry.yarnpkg.com/marked/-/marked-0.3.19.tgz#5d47f709c4c9fc3c216b6d46127280f40b39d790"
 
 media-typer@0.3.0:
   version "0.3.0"
@@ -4450,6 +4455,13 @@ neo-async@^2.5.0:
 netmask@~1.0.4:
   version "1.0.6"
   resolved "https://registry.yarnpkg.com/netmask/-/netmask-1.0.6.tgz#20297e89d86f6f6400f250d9f4f6b4c1945fcd35"
+
+ngx-md@~3.1.0:
+  version "3.1.1"
+  resolved "https://registry.yarnpkg.com/ngx-md/-/ngx-md-3.1.1.tgz#41310ac862713cb4cc6b4f455743d948943ed728"
+  dependencies:
+    marked "^0.3.9"
+    prismjs "^1.9.0"
 
 no-case@^2.2.0:
   version "2.3.1"
@@ -5144,9 +5156,9 @@ pretty-error@^2.0.2:
     renderkid "^2.0.1"
     utila "~0.4"
 
-prismjs@^1.8.4:
-  version "1.12.2"
-  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.12.2.tgz#a40a6cd5bf36716e316cb75df91976a7d5d694e6"
+prismjs@^1.9.0:
+  version "1.14.0"
+  resolved "https://registry.yarnpkg.com/prismjs/-/prismjs-1.14.0.tgz#bbccfdb8be5d850d26453933cb50122ca0362ae0"
   optionalDependencies:
     clipboard "^2.0.0"
 
@@ -7032,6 +7044,10 @@ wbuf@^1.1.0, wbuf@^1.7.2:
   resolved "https://registry.yarnpkg.com/wbuf/-/wbuf-1.7.2.tgz#d697b99f1f59512df2751be42769c1580b5801fe"
   dependencies:
     minimalistic-assert "^1.0.0"
+
+web-animations-js@^2.3.1:
+  version "2.3.1"
+  resolved "https://registry.yarnpkg.com/web-animations-js/-/web-animations-js-2.3.1.tgz#3a6d9bc15196377a90f8e2803fa5262165b04510"
 
 webdriver-js-extender@^1.0.0:
   version "1.0.0"

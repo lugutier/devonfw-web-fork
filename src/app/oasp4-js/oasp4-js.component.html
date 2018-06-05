@@ -7,9 +7,15 @@
           <li class="dropdown">
             <a href="oasp4-js#over-view">Overview</a>
             <ul class="dropdown-submenu">
-              <li><a href="oasp4-js#sample-application">Application reference</a></li>
-              <li><a href="oasp4-js#app-template">Application template</a></li>
-              <li><a href="oasp4-js#oasp4js-catalog">OASP4JS Catalog</a></li>
+              <li>
+                <a href="oasp4-js#sample-application">Application reference</a>
+              </li>
+              <li>
+                <a href="oasp4-js#app-template">Application template</a>
+              </li>
+              <li>
+                <a href="oasp4-js#oasp4js-catalog">OASP4JS Catalog</a>
+              </li>
             </ul>
             <li class="dropdown">
               <a href="oasp4-js#get-start4js">Getting started</a>
@@ -28,18 +34,22 @@
     <div class="hidden-sm-down col-lg-9 col-md-8 col-sm-7 col-12 content-roadmap">
       <div class="roadmap">
         <div class="markdown main-title">
-          <markdown [path]="'../../assets/content/OASP4JS/header.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP4JS/header.md'">
+          </ngx-md>
         </div>
         <h4 id="over-view">¡From developers to developers!</h4>
         <h1>Overview</h1>
         <div class="markdown over" id="sample-application">
-          <markdown [path]="'../../assets/content/OASP4JS/overview/sample-app.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP4JS/overview/sample-app.md'">
+          </ngx-md>
         </div>
         <div class="markdown over" id="app-template">
-          <markdown [path]="'../../assets/content/OASP4JS/overview/app-template.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP4JS/overview/app-template.md'">
+          </ngx-md>
         </div>
         <div class="markdown over" id="oasp4js-catalog">
-          <markdown [path]="'../../assets/content/OASP4JS/overview/oasp4js-catalog.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP4JS/overview/oasp4js-catalog.md'">
+          </ngx-md>
         </div>
         <div id="get-start4js"></div>
 
@@ -61,10 +71,12 @@
                     </div>
                     <div class="media-body">
                       <a href="http://de-mucdevondepl01:8090/">
-                        <p>View the demo <i class="fa fa-external-link" aria-hidden="true"></i>
+                        <p>View the demo
+                          <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
-                      <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management application. My Thai Star.</p>
+                      <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management
+                        application. My Thai Star.</p>
                     </div>
                   </div>
                 </div>
@@ -84,7 +96,8 @@
                     </div>
                     <div class="media-body">
                       <a href="https://github.com/oasp/oasp-vscode-ide">
-                        <p>Setup the develop enviroment <i class="fa fa-external-link" aria-hidden="true"></i>
+                        <p>Setup the develop enviroment
+                          <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
                       <p class="description">This Visual Studio Code IDE configuration will provide a complete development environment up and running.</p>
@@ -107,7 +120,8 @@
                     </div>
                     <div class="media-body">
                       <a href="https://github.com/oasp/oasp4js-application-template">
-                        <p>Get the code <i class="fa fa-external-link" aria-hidden="true"></i>
+                        <p>Get the code
+                          <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
                       <p class="description">The code is hosted on Github, here is the OASP4js application template repository.
@@ -131,7 +145,8 @@
                     </div>
                     <div class="media-body">
                       <a href="https://github.com/oasp/oasp-tutorial-sources/wiki/OASP4jsGettingStartedHome">
-                        <p>Read the tutorial <i class="fa fa-external-link" aria-hidden="true"></i>
+                        <p>Read the tutorial
+                          <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
                       <p class="description">Read and follow the tutorial at OASP4js Client Tutorial
@@ -163,11 +178,13 @@
         </div>
         <h1 class="road">Roadmap</h1>
         <div class="markdown tl ">
-          <markdown [path]=" '../../assets/content/OASP4JS/roadmap/Roadmap.md' "></markdown>
+          <ngx-md [path]=" '../../assets/content/OASP4JS/roadmap/Roadmap.md' ">
+          </ngx-md>
           <div id="resources"></div>
         </div>
         <div class="markdown tl ">
-          <markdown [path]=" '../../assets/content/OASP4JS/resources/Resources.md' "></markdown>
+          <ngx-md [path]=" '../../assets/content/OASP4JS/resources/Resources.md' ">
+          </ngx-md>
         </div>
       </div>
     </div>
@@ -182,13 +199,16 @@
         <ngb-tab title="Overview ">
           <ng-template ngbTabContent>
             <div class="markdown over " id="sample-application ">
-              <markdown [path]=" '../../assets/content/OASP4JS/overview/sample-app.md' "></markdown>
+              <ngx-md [path]=" '../../assets/content/OASP4JS/overview/sample-app.md' ">
+              </ngx-md>
             </div>
             <div class="markdown over " id="app-template ">
-              <markdown [path]=" '../../assets/content/OASP4JS/overview/app-template.md' "></markdown>
+              <ngx-md [path]=" '../../assets/content/OASP4JS/overview/app-template.md' ">
+              </ngx-md>
             </div>
             <div class="markdown over" id="oasp4js-catalog">
-              <markdown [path]="'../../assets/content/OASP4JS/overview/oasp4js-catalog.md'"></markdown>
+              <ngx-md [path]="'../../assets/content/OASP4JS/overview/oasp4js-catalog.md'">
+              </ngx-md>
             </div>
           </ng-template>
         </ngb-tab>
@@ -210,10 +230,12 @@
                         </div>
                         <div class="media-body">
                           <a href="http://de-mucdevondepl01:8090/">
-                            <p>View the demo <i class="fa fa-external-link" aria-hidden="true"></i>
+                            <p>View the demo
+                              <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
-                          <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management application. My Thai Star.</p>
+                          <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management
+                            application. My Thai Star.</p>
                         </div>
                       </div>
                     </div>
@@ -233,10 +255,13 @@
                         </div>
                         <div class="media-body">
                           <a href="https://github.com/oasp/oasp-vscode-ide">
-                            <p>Setup the develop enviroment <i class="fa fa-external-link" aria-hidden="true"></i>
+                            <p>Setup the develop enviroment
+                              <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
-                          <p class="description">This Visual Studio Code IDE configuration will provide a complete development environment up and running.</p>
+                          <p class="description">This Visual Studio Code IDE configuration will provide a complete development environment up and
+                            running.
+                          </p>
                         </div>
                       </div>
                     </div>
@@ -256,7 +281,8 @@
                         </div>
                         <div class="media-body">
                           <a href="https://github.com/oasp/oasp4js-application-template">
-                            <p>Get the code <i class="fa fa-external-link" aria-hidden="true"></i>
+                            <p>Get the code
+                              <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
                           <p class="description">The code is hosted on Github, here is the OASP4js application template repository.
@@ -280,7 +306,8 @@
                         </div>
                         <div class="media-body">
                           <a href="https://github.com/oasp/oasp-tutorial-sources/wiki/OASP4jsGettingStartedHome">
-                            <p>Read the tutorial <i class="fa fa-external-link" aria-hidden="true"></i>
+                            <p>Read the tutorial
+                              <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
                           <p class="description">Read and follow the tutorial at OASP4js Client Tutorial
@@ -315,14 +342,16 @@
         <ngb-tab title="Roadmap">
           <ng-template ngbTabContent>
             <div class="markdown tl roadmap ">
-              <markdown [path]=" '../../assets/content/OASP4JS/roadmap/Roadmap.md' "></markdown>
+              <ngx-md [path]=" '../../assets/content/OASP4JS/roadmap/Roadmap.md' ">
+              </ngx-md>
             </div>
           </ng-template>
         </ngb-tab>
         <ngb-tab title="Resources">
           <ng-template ngbTabContent>
             <div class="markdown tl ">
-              <markdown [path]=" '../../assets/content/OASP4JS/resources/Resources.md' "></markdown>
+              <ngx-md [path]=" '../../assets/content/OASP4JS/resources/Resources.md' ">
+              </ngx-md>
             </div>
           </ng-template>
         </ngb-tab>
