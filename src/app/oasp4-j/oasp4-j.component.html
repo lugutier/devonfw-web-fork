@@ -7,9 +7,15 @@
           <li class="dropdown">
             <a href="oasp4-j#over-view" [ngClass]="{'active': isCurrentPath('/oasp4-j#over-view')}">Overview</a>
             <ul class="dropdown-submenu">
-              <li><a href="oasp4-j#documentacion">Documentation</a></li>
-              <li><a href="oasp4-j#modules">Modules</a></li>
-              <li><a href="oasp4-j#sample-app">Sample Application</a></li>
+              <li>
+                <a href="oasp4-j#documentacion">Documentation</a>
+              </li>
+              <li>
+                <a href="oasp4-j#modules">Modules</a>
+              </li>
+              <li>
+                <a href="oasp4-j#sample-app">Sample Application</a>
+              </li>
             </ul>
             <li class="dropdown">
               <a href="oasp4-j#get-start4j">Getting started</a>
@@ -27,18 +33,22 @@
     <div class="hidden-sm-down col-lg-9 col-md-8 col-sm-7 col-12 content-roadmap">
       <div class="roadmap">
         <div class="markdown main-title">
-          <markdown [path]="'../../assets/content/OASP4J/header.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP4J/header.md'">
+          </ngx-md>
         </div>
         <h4 class="developers" id="over-view">¡From developers to developers!</h4>
         <h1>Overview</h1>
         <div class="markdown over" id="documentacion">
-          <markdown [path]="'../../assets/content/OASP4J/overview/documentation.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP4J/overview/documentation.md'">
+          </ngx-md>
         </div>
         <div class="markdown over" id="modules">
-          <markdown [path]="'../../assets/content/OASP4J/overview/modules.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP4J/overview/modules.md'">
+          </ngx-md>
         </div>
         <div class="markdown over" id="sample-app">
-          <markdown [path]="'../../assets/content/OASP4J/overview/sample-app.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP4J/overview/sample-app.md'">
+          </ngx-md>
         </div>
         <div id="get-start4j"></div>
         <!--Getting started-->
@@ -59,7 +69,8 @@
                     </div>
                     <div class="media-body">
                       <a href="../../assets/PDF/OASP4J.pdf">
-                        <p>Read the platform GUIDE <i class="fa fa-external-link" aria-hidden="true"></i>
+                        <p>Read the platform GUIDE
+                          <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
                       <p class="description">First things first. Start your way through OASP by reading the OASP4j Platform Guide</p>
@@ -82,7 +93,8 @@
                     </div>
                     <div class="media-body">
                       <a href="http://oasp-ci.cloudapp.net/oasp4j-sample/jsclient/">
-                        <p>View the demo tutorial <i class="fa fa-external-link" aria-hidden="true"></i>
+                        <p>View the demo tutorial
+                          <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
                       <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management
@@ -107,7 +119,8 @@
                     </div>
                     <div class="media-body">
                       <a href="https://github.com/oasp/oasp4j/wiki/oasp-ide-setup">
-                        <p>Setup the develop enviroment <i class="fa fa-external-link" aria-hidden="true"></i>
+                        <p>Setup the develop enviroment
+                          <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
                       <p class="description">The OASP IDE setup guide will guide you how to get your development environment up and running.</p>
@@ -130,7 +143,8 @@
                     </div>
                     <div class="media-body">
                       <a href="http://github.com/oasp/oasp4j/">
-                        <p>Get the code <i class="fa fa-external-link" aria-hidden="true"></i>
+                        <p>Get the code
+                          <i class="fa fa-external-link" aria-hidden="true"></i>
                         </p>
                       </a>
                       <p class="description">Once you are able to code applications with OASP support you surely want to take a peek to the technology
@@ -165,7 +179,8 @@
         <!--Roadmap-->
         <h1 class="road">Roadmap</h1>
         <div class="markdown tl">
-          <markdown [path]="'../../assets/content/OASP4J/roadmap/roadmap.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP4J/roadmap/roadmap.md'">
+          </ngx-md>
         </div>
       </div>
     </div>
@@ -181,13 +196,16 @@
         <ngb-tab title="Overview">
           <ng-template ngbTabContent>
             <div class="markdown over" id="documentacion">
-              <markdown [path]="'../../assets/content/OASP4J/overview/documentation.md'"></markdown>
+              <ngx-md [path]="'../../assets/content/OASP4J/overview/documentation.md'">
+              </ngx-md>
             </div>
             <div class="markdown over" id="sample-app">
-              <markdown [path]="'../../assets/content/OASP4J/overview/sample-app.md'"></markdown>
+              <ngx-md [path]="'../../assets/content/OASP4J/overview/sample-app.md'">
+              </ngx-md>
             </div>
             <div class="markdown over" id="modules">
-              <markdown [path]="'../../assets/content/OASP4J/overview/modules.md'"></markdown>
+              <ngx-md [path]="'../../assets/content/OASP4J/overview/modules.md'">
+              </ngx-md>
             </div>
           </ng-template>
         </ngb-tab>
@@ -209,7 +227,8 @@
                         </div>
                         <div class="media-body">
                           <a href="../../assets/PDF/OASP4J.pdf">
-                            <p>Read the platform GUIDE <i class="fa fa-external-link" aria-hidden="true"></i>
+                            <p>Read the platform GUIDE
+                              <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
                           <p class="description">First things first. Start your way through OASP by reading the OASP4j Platform Guide</p>
@@ -232,7 +251,8 @@
                         </div>
                         <div class="media-body">
                           <a href="http://oasp-ci.cloudapp.net/oasp4j-sample/jsclient/">
-                            <p>View the demo tutorial <i class="fa fa-external-link" aria-hidden="true"></i>
+                            <p>View the demo tutorial
+                              <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
                           <p class="description">There is currently one rather technical demo, simulating a few use cases of a restaurant management
@@ -257,7 +277,8 @@
                         </div>
                         <div class="media-body">
                           <a href="https://github.com/oasp/oasp4j/wiki/oasp-ide-setup">
-                            <p>Setup the develop enviroment <i class="fa fa-external-link" aria-hidden="true"></i>
+                            <p>Setup the develop enviroment
+                              <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
                           <p class="description">The OASP IDE setup guide will guide you how to get your development environment up and running.</p>
@@ -280,7 +301,8 @@
                         </div>
                         <div class="media-body">
                           <a href="http://github.com/oasp/oasp4j/">
-                            <p>Get the code <i class="fa fa-external-link" aria-hidden="true"></i>
+                            <p>Get the code
+                              <i class="fa fa-external-link" aria-hidden="true"></i>
                             </p>
                           </a>
                           <p class="description">Once you are able to code applications with OASP support you surely want to take a peek to the
@@ -317,7 +339,8 @@
         <ngb-tab title="Roadmap">
           <ng-template ngbTabContent>
             <div class="markdown tl">
-              <markdown [path]="'../../assets/content/OASP4J/roadmap/roadmap.md'"></markdown>
+              <ngx-md [path]="'../../assets/content/OASP4J/roadmap/roadmap.md'">
+              </ngx-md>
             </div>
           </ng-template>
         </ngb-tab>

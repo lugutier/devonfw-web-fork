@@ -3,25 +3,30 @@
     <div class="row">
       <div class=" col-lg-6 col-md-12 col-sm-12 col-12 text-xs-center">
         <div class="markdown">
-          <markdown [path]="'../../assets/content/OASP/framework.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP/framework.md'">
+          </ngx-md>
         </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-4" style="text-align:center">
         <img class="mg-top10" src="../../assets/images/javascript_icon.png">
         <br>
         <br>
-        <p class="javaScript"><b>JavaScript</b></p>
+        <p class="javaScript">
+          <b>JavaScript</b>
+        </p>
         <div name="radioBasic">
           <a class="btn btn-primary" [routerLink]="['/oasp4-js']">
             More info
-            </a>
+          </a>
         </div>
       </div>
       <div class="col-lg-2 col-md-4 col-sm-4" style="text-align:center">
         <img cl src="../../assets/images/java_icon.png">
         <br>
         <br>
-        <p class="java"><b>Java</b></p>
+        <p class="java">
+          <b>Java</b>
+        </p>
         <div name="radioBasic">
           <a class="btn btn-primary" [routerLink]="['/oasp4-j']">
             More info
@@ -32,10 +37,12 @@
         <img cl src="../../assets/images/net_icon.png">
         <br>
         <br>
-        <p class="net"><b>.NET</b></p>
+        <p class="net">
+          <b>.NET</b>
+        </p>
         <div name="radioBasic">
           <a class="btn btn-primary" style="max-width: 159px; padding-left:23px;" href="#">
-              ..coming soon 
+            ..coming soon
           </a>
         </div>
       </div>
