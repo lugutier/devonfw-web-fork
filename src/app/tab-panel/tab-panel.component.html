@@ -58,44 +58,80 @@
       <ngb-tab title="Architecture Background">
         <ng-template ngbTabContent>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/CG-architectureBackground.png" alt="Arch.Back.">
+            <div class="col-sm-7">
+              <div class="markdown">
+                <ngx-md [path]="'../../assets/content/TABPANEL/architecture-background.md'">
+                </ngx-md>
+              </div>
             </div>
+            <div class="col-sm-5">
+              <img cl class="img" src="../../assets/images/architecture_background.png">
+            </div>
+            <!--More Info-->
+            <a href="https://github.com/oasp-forge/oasp4j-wiki/wiki/architecture" class="btn">More Info</a>
           </div>
         </ng-template>
       </ngb-tab>
       <ngb-tab title="Architecture Patterns">
         <ng-template ngbTabContent>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/OASP-Layering.png" alt="Arch.Patterns">
+            <div class="col-sm-7">
+              <div class="markdown">
+                <ngx-md [path]="'../../assets/content/TABPANEL/architecture-patterns.md'">
+                </ngx-md>
+              </div>
             </div>
+            <div class="col-sm-5">
+              <img cl class="img" src="../../assets/images/OASP-Layering.png">
+            </div>
+            <!--More Info-->
+            <a href="https://github.com/oasp/oasp4j/wiki/guide-logic-layer" class="btn">More Info</a>
           </div>
         </ng-template>
       </ngb-tab>
       <ngb-tab title="Used Technologies">
         <ng-template ngbTabContent>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/OASP_technologies_used.png" alt="Technologies used">
+            <div class="col-sm-7">
+              <div class="markdown">
+                <ngx-md [path]="'../../assets/content/TABPANEL/used-technologies.md'">
+                </ngx-md>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <img cl class="img" src="../../assets/images/used-technologies.jpg">
             </div>
           </div>
         </ng-template>
       </ngb-tab>
-      <ngb-tab title="Ide">
+      <ngb-tab title="IDE">
         <ng-template ngbTabContent>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/IntegratedIDE.png" alt="IDE">
+            <div class="col-sm-7">
+              <div class="markdown">
+                <ngx-md [path]="'../../assets/content/TABPANEL/ide.md'">
+                </ngx-md>
+              </div>
             </div>
+            <div class="col-sm-5">
+              <img cl class="img" src="../../assets/images/ide.png">
+            </div>
+            <!--More Info-->
+            <a href="https://github.com/devonfw/devon/wiki/getting-started-the-devon-ide" class="btn">More Info</a>
           </div>
         </ng-template>
       </ngb-tab>
       <ngb-tab title="Examples">
         <ng-template ngbTabContent>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp"src="../../assets/images/Example_Angular_Restaurant_Screen.png" alt="Examples">
+            <div class="col-sm-7">
+              <div class="markdown">
+                <ngx-md [path]="'../../assets/content/TABPANEL/examples.md'">
+                </ngx-md>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <img cl class="img" src="../../assets/images/examples.png">
             </div>
           </div>
         </ng-template>
@@ -108,6 +144,9 @@
     <div class="col-10 offset-1 d-sm-none d-md-none d-inline">
       <ngb-carousel>
         <ng-template ngbSlide>
+          <div class="carousel-caption">
+            <h3>One flexible solution</h3>
+          </div>
           <div class="row">
             <div class="col-sm-1 col-md-4 col-6">
               <div class="gallery">
@@ -158,59 +197,96 @@
               </div>
             </div>
           </div>
-           <div class="carousel-caption">
-            <h3>One flexible solution</h3>
-          </div>
         </ng-template>
+
         <ng-template ngbSlide>
-          <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/CG-architectureBackground.png" alt="Arch.Back.">
-            </div>
-          </div>
           <div class="carousel-caption">
             <h3>Architecture background</h3>
           </div>
-        </ng-template>
-        <ng-template ngbSlide>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/OASP-Layering.png" alt="Arch.Patterns">
+            <div class="col-sm-7">
+              <div class="markdown">
+                <ngx-md [path]="'../../assets/content/TABPANEL/architecture-background.md'">
+                </ngx-md>
+              </div>
             </div>
+            <div class="col-sm-5 img">
+              <img cl src="../../assets/images/architecture_background.png" height="180px" width="330px">
+            </div>
+            <!--More Info-->
+            <input type="button" class="btn btn-info more-info" value="More Info" onclick="location.href = 'https://github.com/oasp-forge/oasp4j-wiki/wiki/architecture';">
           </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
           <div class="carousel-caption">
             <h3>Architecture Patterns</h3>
           </div>
-        </ng-template>
-        <ng-template ngbSlide>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/OASP_technologies_used.png" alt="Technologies used">
+            <div class="col-sm-7">
+              <div class="markdown">
+                <ngx-md [path]="'../../assets/content/TABPANEL/architecture-patterns.md'">
+                </ngx-md>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <img cl src="../../assets/images/OASP-Layering.png" height="180px" width="330px">
             </div>
           </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
           <div class="carousel-caption">
             <h3>Used Technologies</h3>
           </div>
-        </ng-template>
-        <ng-template ngbSlide>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/IntegratedIDE.png" alt="IDE">
+            <div class="col-sm-7">
+              <div class="markdown">
+                <ngx-md [path]="'../../assets/content/TABPANEL/used-technologies.md'">
+                </ngx-md>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <img cl src="../../assets/images/used-technologies.jpg" height="180px" width="330px">
             </div>
           </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
           <div class="carousel-caption">
             <h3>IDE</h3>
           </div>
-        </ng-template>
-        <ng-template ngbSlide>
           <div class="row">
-            <div class="col-sm-12 col-12">
-              <img class="img-resp" src="../../assets/images/Example_Angular_Restaurant_Screen.png" alt="Examples">
+            <div class="col-sm-7">
+              <div class="markdown">
+                <ngx-md [path]="'../../assets/content/TABPANEL/ide.md'">
+                </ngx-md>
+              </div>
             </div>
+            <div class="col-sm-5">
+              <img cl src="../../assets/images/ide.png" height="180px" width="330px">
+            </div>
+            <!--More Info-->
+            <input type="button" class="btn btn-info more-info" value="More Info" onclick="location.href = 'https://github.com/devonfw/devon/wiki/getting-started-the-devon-ide';">
           </div>
+        </ng-template>
+
+        <ng-template ngbSlide>
           <div class="carousel-caption">
             <h3>Examples</h3>
           </div>
+          <div class="row">
+            <div class="col-sm-7">
+              <div class="markdown">
+                <ngx-md [path]="'../../assets/content/TABPANEL/examples.md'">
+                </ngx-md>
+              </div>
+            </div>
+            <div class="col-sm-5">
+              <img cl src="../../assets/images/examples.png" height="180px" width="330px">
+            </div>
+          </div>
+
         </ng-template>
       </ngb-carousel>
     </div>

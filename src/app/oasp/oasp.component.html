@@ -1,29 +1,31 @@
 <div class="container-fluid OASP">
   <div class="container">
-    <div class="row" style="padding-top: 180px">
-      <div class="col-lg-7 col-md-12 col-sm-7 col-12 text-xs-center">
+    <div class="row" style="padding-top: 100px">
+      <div class="col-lg-11 col-md-12 col-sm-11 col-12">
         <div class="markdown">
-          <markdown [path]="'../../assets/content/OASP/about.md'"></markdown>
+          <ngx-md [path]="'../../assets/content/OASP/about.md'">
+          </ngx-md>
         </div>
       </div>
     </div>
-    <div class="row" style="padding-bottom:200px">
+    <div class="row" style="padding-bottom:50px">
       <div class="col-lg-12 col-md-12 col-sm-12 col-12 text-xs-center">
-        <!--Getting started-->
-        <a href="oasp#gettingstarted" class="btn btn-primary btn-dark">Getting started</a>
+        <!--Download devonfw 2.4-->
+        <a href="https://coconet.capgemini.com/sf/frs/do/downloadFile/projects.apps2_devon/frs.devon_distribution.2_4_0/frs65334?dl=1" class="btn btn-primary btn-dark">Download devonfw 2.4</a>
         <!--framework-->
         <a href="oasp#fw" class="btn btn-primary btn-white">Framework</a>
+        <!--Getting started-->
+        <a href="https://troom.capgemini.com/sites/vcc/devon/getstarted.aspx" class="btn btn-primary btn-white">Getting started</a>
       </div>
     </div>
   </div>
 </div>
-<app-framework></app-framework>
+<app-why-devonfw></app-why-devonfw>
 <app-tab-panel></app-tab-panel>
+<app-framework></app-framework>
 <app-used-technologies></app-used-technologies>
-<app-try-it></app-try-it>
+<!--<app-try-it></app-try-it>-->
 <app-devonfw></app-devonfw>
 <app-collaboration-contribution></app-collaboration-contribution>
 <app-slider></app-slider>
 <app-university-activities></app-university-activities>
-
-

@@ -12,5 +12,4 @@ export class TabPanelComponent implements OnInit {
 
   constructor() {}
   ngOnInit() {}
-
 }

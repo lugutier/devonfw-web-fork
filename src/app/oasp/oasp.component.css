@@ -2,6 +2,8 @@
   background: url("../../assets/images/img_1.png") center no-repeat;
   background-color: #4bbdec;
   background-size: cover;
+  text-align: left;
+  margin-left: -18%;
 }
 
 .OASP .markdown p {
@@ -10,8 +12,35 @@
   font-family: montserrat-light;
   font-style: normal;
   font-weight: 100;
-  line-height: 18pt;
-  padding: 20px 0px;
+  line-height: 14pt;
+}
+
+.OASP .markdown li {
+  color: white;
+  font-size: 12pt;
+  font-family: montserrat-Regular;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 14pt;
+  padding: 5px 0px; 
+  list-style-type: square; 
+}
+
+.OASP .markdown a {
+  color:white;
+  display: initial;
+  width: auto;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 12pt;
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  cursor: pointer;
+  text-decoration: underline;
 }
 
 .OASP .markdown h2 {
@@ -22,9 +51,20 @@
   font-weight: 500;
 }
 
+.OASP .markdown h4 {
+  color: white;
+  font-family: montserrat-Regular;
+  font-size: 16pt;
+  line-height: 28pt;
+  border-bottom: white 6px;
+  width: 30%;
+  border-bottom-style: solid;
+}
 .OASP .markdown h2::after {
   display: none;
 }
+
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .OASP {
     background-size: 160%;
@@ -51,6 +91,32 @@
     background: url("../../assets/images/img_1.png") center center no-repeat;
     background-color: #4bbdec;
     background-size: 500%;
+  }
+}
+
+
+@media (min-width: 950px) and (max-width: 1280px) {
+
+  .text-xs-center {
+    text-align: center;    
+  }
+
+  .OASP p {
+    text-align: center;
+    margin-left: 40%;
+    width: 100%;
+  }
+  .OASP h2 {
+    text-align: center;
+    margin-left: 40%;
+    width: 100%;
+  }
+  
+  .OASP {
+    background: url("../../assets/images/img_1.png") center center no-repeat;
+    background-color: #4bbdec;
+    background-size: 500%;
+    text-align: center;
   }
 }
 

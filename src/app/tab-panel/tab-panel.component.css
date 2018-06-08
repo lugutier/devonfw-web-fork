@@ -1,14 +1,14 @@
 .about {
-  background: url("../../assets/images/on_the_flexible_solution.png")0px 540px, url("../../assets/images/corte_2.png") -695px -300px;
-  background-size: 180%;
+  background: url("../../assets/images/corte_2.png") -580px -300px;
+  background-size: contain;
   background-repeat: no-repeat;
   box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
   padding: 40px 0px 30px;
+  background-size: 100%;
   height: 700px;
 }
 
-.about .nav-pills .nav-item.show .nav-link,
-.nav-pills .nav-link.active {
+.about .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link.active {
   color: #0275d8;
   cursor: default;
   background-color: rgba(255, 255, 255, 0.0);
@@ -17,8 +17,7 @@
   margin-bottom: 40px;
 }
 
-.about .nav-pills .nav-item.show .nav-link,
-.nav-pills .nav-link:hover {
+.about .nav-pills .nav-item.show .nav-link, .nav-pills .nav-link:hover {
   color: #0275d8;
   border-bottom: 3px solid #0275d8;
   border-radius: 0px;
@@ -97,6 +96,73 @@ li {
   outline: none;
 }
 
+.about .markdown h3 {
+  color: black;
+  font-size: 16pt;
+  margin-bottom: 30px;
+}
+
+.about .markdown h3::after {
+  content: "";
+  display: block;
+  position: absolute;
+  left: 15px;
+  margin: 20px 0px;
+  width: 15%;
+  background-color: white;
+  height: 4px;
+}
+
+.about .markdown h4 {
+  color: black;
+  font-family: montserrat-Regular;
+  font-size: 16pt;
+}
+
+.about .markdown p {
+  color: black !important;
+  font-size: 12pt;
+  font-family: montserrat-Regular;
+  font-style: normal;
+  font-weight: 200;
+  line-height: 30pt;
+}
+
+.about .markdown li {
+  color: black !important;
+  font-size: 12pt;
+  font-family: montserrat-Regular;
+  font-style: normal;
+  font-weight: 200;
+  padding: 20px 0px;
+  list-style-type: square;
+  line-height: 15pt;
+}
+
+.btn{
+  color: white;
+  background-color: transparent;
+  border-color: white;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border-radius: 70px;
+  font-size: 10pt;
+  border-width: 2px;
+  font-family: Montserrat-Regular;
+  cursor: pointer;
+  margin-right: 5px;
+  margin-left: 10px;
+}
+
+.img{
+  height: 95%;
+  width: 135%;
+}
+
+/*---------------------- ---------------------- Responsive UI -------------------------------------------- */
+
 @media (max-width: 767px) {
   .about {
     height: auto;
@@ -153,11 +219,109 @@ li {
   }
 }
 
-@media only screen and (max-width: 992px) and (min-width: 768px) {
-  .about {
-    background-size: 200%;
+/* ----------- Mobile S----------- */
+
+/* Galaxy SIII in Chrome - 720x1280 */
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .about .markdown p {
+    color: black !important;
+    font-size: 12pt;
+    font-family: montserrat-Regular;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 30pt;
+    text-align: left;
   }
-  .img-resp {
-    max-width: inherit;
+  .about .markdown li {
+    color: black !important;
+    font-size: 12pt;
+    font-family: montserrat-Regular;
+    font-style: normal;
+    font-weight: 200;
+    padding: 10px 0px;
+    list-style-type: square;
+    line-height: 15pt;
+    text-align: left;
+  }
+  .about .carousel-caption h3 {
+    color: #4bbdec;
+    font-family: Montserrat-Medium;
+    font-size: 14pt;
+  }
+  .more-info {
+    margin-top: 20px;
+    margin-left: 100px;
+  }
+
+  .btn-info {
+    color: #4bbdec;
+    background-color: transparent;
+    border-color: #4bbdec;
+    border-radius: 72px;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 14px;
+    padding-bottom: 14px;
+    border-radius: 72px;
+    font-size: 12pt;
+    border-width: 2px;
+    font-family: Montserrat-Regular;
+    cursor: pointer;
+    margin-right: 10px;
+  }
+}
+
+/* ----------- Mobile L----------- */
+
+/* Full HD 1080x1920 (Google Pixel 2 in Chrome) and QHD 1440x2560 (Google Pixel 2 XL in Chrome)  */
+
+@media only screen and (min-width: 411px) and (max-width: 731px) {
+
+}
+
+/* ----------- Tablet (iPad)----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .row {
+    text-align: left;
+    padding-bottom: 15px;
+    margin-right: -40px;
+    margin-left: -30px;
+  }
+
+  .about .markdown p {
+    color: black !important;
+    font-size: 10pt;
+    font-family: montserrat-Regular;
+    font-style: normal;
+    font-weight: 200;
+    line-height: 15pt;
+  }
+  .about .markdown li {
+    color: black !important;
+    font-size: 10pt;
+    font-family: montserrat-Regular;
+    font-style: normal;
+    font-weight: 200;
+    padding: 5px 0px;
+    list-style-type: square;
+    line-height: 15pt;
+    text-align: left;
+  }
+  .about .carousel-caption h3 {
+    color: #4bbdec;
+    font-family: Montserrat-Medium;
+    font-size: 10pt;
+  }
+  .about .markdown h3 {
+    color: black;
+    font-size: 12pt;
+    margin-bottom: 30px;
+  }
+
+  .more-info {
+    margin-top: 10px;
+    margin-left: 550px;
   }
 }

@@ -1,5 +1,6 @@
 import { Component, OnInit } from '@angular/core';
 import { Router, NavigationEnd } from '@angular/router';
+import * as $ from 'jquery';
 
 @Component({
   selector: 'app-nav-bar',
@@ -16,7 +17,26 @@ export class NavBarComponent implements OnInit {
     });
   }
 
-  ngOnInit() {}
+  ngOnInit() {
+
+        $.ajax({
+          url: 'https://troom.capgemini.com/sites/vcc/devon/overview.aspx',
+          dataType: 'jsonp',
+          method: 'GET',
+          timeout: 2000,
+          error: function(hrx, textStatus, error) {
+            if (textStatus === 'parsererror') {
+              $('.cg_internal').show();
+              $('.extern').hide();
+              $('[data-cap-href]').each(function() {
+                $(this).attr('href', $(this).data('cap-href'));
+              });
+            } else {
+              $('.extern').show();
+            }
+          }
+        });
+    }
 
   isCurrentPath(path) {
     if (this.current === undefined) {
@@ -25,5 +45,4 @@ export class NavBarComponent implements OnInit {
     const x = this.current.split('#')[0] || this.current;
     return x === path;
   }
-
 }

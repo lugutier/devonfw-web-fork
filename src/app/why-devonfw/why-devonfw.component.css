@@ -1,0 +1,66 @@
+.why-devonfw {
+  background: url("../../assets/images/corte_2.png") -500px 250px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+  padding: 40px 0px 30px;
+}
+
+.row {
+  text-align: left;
+  padding-bottom: 15px;
+}
+
+.title-head {
+  padding-top: 150px;
+  color: black;
+  font-family: montserrat-regular;
+  font-size: 32px;
+  text-align: left;
+}
+
+.title-head-line {
+  width: 70px;
+  border-bottom: 4px solid #4bbdec;
+  margin: 10px;
+}
+
+img {
+  height: 52px;
+  width: 55px;
+}
+
+/* ---------------------- ---------------------- Responsive UI -------------------------------------------- */
+
+/* ----------- Mobile S----------- */
+
+/* Galaxy SIII in Chrome - 720x1280 */
+
+@media only screen and (min-width: 360px) and (max-width: 640px) {
+  .row {
+    text-align: center;
+    padding-bottom: 15px;
+  }
+}
+
+/* ----------- Mobile M ----------- */
+
+@media only screen and (min-width: 375px) and (max-width: 604px) {}
+
+/* ----------- Mobile L----------- */
+
+/* Full HD 1080x1920 (Google Pixel 2 in Chrome) and QHD 1440x2560 (Google Pixel 2 XL in Chrome)  */
+
+@media only screen and (min-width: 411px) and (max-width: 731px) {}
+
+/* ----------- Tablet (iPad)----------- */
+
+@media only screen and (min-width: 768px) and (max-width: 1024px) {
+
+  .row {
+    text-align: left;
+    padding-bottom: 15px;
+    margin-right: -40px;
+    margin-left: -30px;
+  }
+}
