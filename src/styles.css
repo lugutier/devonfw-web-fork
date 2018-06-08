@@ -1,4 +1,5 @@
 /* You can add global styles to this file, and also import other style files */
+
 @import '../src/app/framework/framework.component.css';
 @import '../src/app/devonfw/devonfw.component.css';
 @import '../src/app/oasp/oasp.component.css';
@@ -9,7 +10,6 @@
 @import '../src/app/oasp4-js/oasp4-js.component.css';
 @import '../src/app/tab-panel/tab-panel.component.css';
 @import '../src/app/slider/slider.component.css';
-
 @font-face {
   font-family: Montserrat-Regular;
   src: url('./assets/fonts/Montserrat-Regular.ttf');
@@ -61,10 +61,7 @@
   margin-right: 0px;
 }
 
-.btn-primary:hover,
-.btn-primary:active,
-.markdown a:hover,
-.markdown a:active {
+.btn-primary:hover, .btn-primary:active, .markdown a:hover, .markdown a:active {
   color: #fff;
   background-color: #4bbdec;
   border-color: #4bbdec;
@@ -170,7 +167,7 @@ hr {
   nav.navbar {
     background-color: #4bbdec !important;
   }
-  .markdown a:last-of-type {
+  markdown a:last-of-type {
     margin-left: 0px;
     margin-bottom: 0px;
   }
