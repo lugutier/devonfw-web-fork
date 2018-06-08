@@ -14,6 +14,33 @@
   padding: 20px 0px;
 }
 
+.OASP .markdown li {
+  color: white;
+  font-size: 12pt;
+  font-family: montserrat-Regular;
+  font-style: normal;
+  font-weight: 100;
+  line-height: 15pt;
+  padding: 5px 0px; 
+  list-style-type: square; 
+}
+
+.OASP .markdown a {
+  color:white;
+  display: initial;
+  width: auto;
+  margin-bottom: 0px;
+  margin-right: 0px;
+  padding-left: 0px;
+  padding-right: 0px;
+  padding-top: 0px;
+  padding-bottom: 0px;
+  font-size: 12pt;
+  font-family: Montserrat-Regular;
+  font-style: normal;
+  cursor: pointer;
+}
+
 .OASP .markdown h2 {
   color: white;
   font-family: montserrat-Regular;
