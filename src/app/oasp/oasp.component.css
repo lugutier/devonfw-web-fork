@@ -2,6 +2,8 @@
   background: url("../../assets/images/img_1.png") center no-repeat;
   background-color: #4bbdec;
   background-size: cover;
+  text-align: left;
+  margin-left: -18%;
 }
 
 .OASP .markdown p {
@@ -10,8 +12,7 @@
   font-family: montserrat-light;
   font-style: normal;
   font-weight: 100;
-  line-height: 18pt;
-  padding: 20px 0px;
+  line-height: 14pt;
 }
 
 .OASP .markdown li {
@@ -20,7 +21,7 @@
   font-family: montserrat-Regular;
   font-style: normal;
   font-weight: 100;
-  line-height: 15pt;
+  line-height: 14pt;
   padding: 5px 0px; 
   list-style-type: square; 
 }
@@ -39,6 +40,7 @@
   font-family: Montserrat-Regular;
   font-style: normal;
   cursor: pointer;
+  text-decoration: underline;
 }
 
 .OASP .markdown h2 {
@@ -61,6 +63,8 @@
 .OASP .markdown h2::after {
   display: none;
 }
+
+
 @media (min-width: 768px) and (max-width: 1023px) {
   .OASP {
     background-size: 160%;
