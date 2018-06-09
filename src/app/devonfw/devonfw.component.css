@@ -48,22 +48,11 @@
 
 /**Media query*/
 
-@media only screen and (max-width: 1023px) and (min-width: 768px) {
-  .devonfw {
-    background-position-x: -250px;
-  }
-  .devonfw .markdown p {
-    text-align: right;
-  }
-  .devonfw .markdown h1 {
-    text-align: right;
-  }
-  .devonfw .markdown a {
-    text-align: center;
-  }
-}
+/*---------------------- ---------------------- Responsive UI -------------------------------------------- */
 
-@media (max-width: 767px) {
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
   .devonfw {
     text-align: center !important;
   }
@@ -84,5 +73,133 @@
     width: 100px;
     padding-top: 40px;
     text-align: center;
+  }  
+  
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
+  .devonfw {
+    text-align: right !important;
+  }
+  .devonfw h1 {
+    margin-top: 10%;
+  }
+  .devonfw .markdown h1::after {
+    width: 25%;
+    position: relative;
+    right: 0px;
+  }
+  .devonfw img {
+    width: 100px;
+    padding-top: 40px;
+    text-align: right;
+  }
+  .devonfw .markdown a {
+    border-color: #ffffff;
+    color:white;
+    margin-left: -10px;
+    width: 170px;
+  }
+  
+  .devonfw .markdown a:hover {
+    border-color: #ffffff;
+    color: #4bbdec;
+    background-color: #ffffff;
+  }
+
+  .devonfw .markdown p {
+    color: #ffffff !important;
+    font-style: normal;
+    font-family: montserrat-light;
+    font-size: 16px;
+    text-align: right !important;
   }
 }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  
+  .devonfw {
+    text-align: right !important;
+  }
+  .devonfw h1 {
+    text-align: right;
+    margin-top: 10%;
+  }
+  .devonfw .markdown h1::after {
+    width: 25%;
+    position: relative;
+    right: -100px;
+  }
+  .devonfw img {
+    width: 100px;
+    padding-top: 40px;
+    text-align: right;
+  }
+  .devonfw .markdown a {
+    border-color: #ffffff;
+    color:white;
+    margin-left: -10px;
+    width: 170px;
+  }
+  
+  .devonfw .markdown a:hover {
+    border-color: #ffffff;
+    color: #4bbdec;
+    background-color: #ffffff;
+  }
+
+  .devonfw .markdown p {
+    color: #ffffff !important;
+    font-style: normal;
+    font-family: montserrat-light;
+    font-size: 16px;
+    text-align: right !important;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+  .devonfw {
+    text-align: right !important;
+  }
+  .devonfw h1 {
+    margin-top: 10%;
+  }
+  .devonfw .markdown h1::after {
+    width: 25%;
+    position: relative;
+    right: 0px;
+  }
+  .devonfw img {
+    width: 100px;
+    padding-top: 40px;
+    text-align: right;
+  }
+  .devonfw .markdown a {
+    border-color: #ffffff;
+    color:white;
+    margin-left: -10px;
+    width: 170px;
+  }
+  
+  .devonfw .markdown a:hover {
+    border-color: #ffffff;
+    color: #4bbdec;
+    background-color: #ffffff;
+  }
+
+  .devonfw .markdown p {
+    color: #ffffff !important;
+    font-style: normal;
+    font-family: montserrat-light;
+    font-size: 16px;
+  }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+ }
