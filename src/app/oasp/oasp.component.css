@@ -41,6 +41,7 @@
   font-style: normal;
   cursor: pointer;
   text-decoration: underline;
+  border-width: 0px;
 }
 
 .OASP .markdown h2 {
@@ -64,59 +65,226 @@
   display: none;
 }
 
+/*---------------------- ---------------------- Responsive UI -------------------------------------------- */
 
-@media (min-width: 768px) and (max-width: 1023px) {
+/* // Extra small devices (portrait phones, less than 576px) */
+@media (max-width: 575.98px) { 
+
   .OASP {
-    background-size: 160%;
+    text-align: left;
   }
-  .OASP p {
-    text-align: center
+
+ .text-xs-center {
+    text-align: left;
   }
-  .OASP h2 {
-    text-align: center
-  }
-  .text-xs-center {
-    text-align: center;
-  }
+
   .OASP .markdown p {
-    margin: 20px 0px;
+    text-align: left;
+    padding-left: 5%;
+    font-size: 12pt;
   }
-}
-
-@media (max-width: 767px) {
-  .text-xs-center {
-    text-align: center;
-  }
-  .OASP {
-    background: url("../../assets/images/img_1.png") center center no-repeat;
-    background-color: #4bbdec;
-    background-size: 500%;
-  }
-}
-
-
-@media (min-width: 950px) and (max-width: 1280px) {
-
-  .text-xs-center {
-    text-align: center;    
+  .OASP .markdown h2 {
+    text-align: left;
+    margin-left: 3%;
   }
 
-  .OASP p {
-    text-align: center;
-    margin-left: 40%;
-    width: 100%;
-  }
-  .OASP h2 {
-    text-align: center;
-    margin-left: 40%;
-    width: 100%;
+  .OASP .markdown li {
+    text-align: left;
+    margin-left: 5%;  
+    font-size: 12pt;  
   }
   
+  .col-11 {
+    text-align: left;
+    margin-left: 10%;
+    width: 100%;
+  }
+
+  .btn-primary {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 52px;
+    font-size: 10pt;
+    border-width: 2px;
+    font-family: Montserrat-Regular;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+ 
+}
+/* // Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) { 
+
   .OASP {
-    background: url("../../assets/images/img_1.png") center center no-repeat;
+    background: url("../../assets/images/img_1.png") center no-repeat;
     background-color: #4bbdec;
-    background-size: 500%;
-    text-align: center;
+    background-size: cover;
+    text-align: left;
+  }
+
+ .text-xs-center {
+    text-align: left;
+  }
+
+  .OASP .markdown p {
+    text-align: left;
+    padding-left: 10%;
+    font-size: 12pt;
+  }
+  .OASP .markdown h2 {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .OASP .markdown li {
+    text-align: left;
+    margin-left: 10%;  
+    font-size: 12pt;  
+  }
+
+  .btn-primary {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 52px;
+    font-size: 10pt;
+    border-width: 2px;
+    font-family: Montserrat-Regular;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
   }
 }
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) and (max-width: 991.98px) { 
+  
+  .OASP {
+    background: url("../../assets/images/img_1.png") center no-repeat;
+    background-color: #4bbdec;
+    background-size: cover;
+    text-align: left;
+  }
+
+ .text-xs-center {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .OASP .markdown p {
+    text-align: left;
+    padding-left: 10%;
+    font-size: 12pt;
+  }
+  .OASP .markdown h2 {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .OASP .markdown li {
+    text-align: left;
+    margin-left: 10%;  
+    font-size: 12pt;  
+  }
+
+  .btn-primary {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 52px;
+    font-size: 10pt;
+    border-width: 2px;
+    font-family: Montserrat-Regular;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+ }
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px) and (max-width: 1199.98px) { 
+
+  .OASP {
+    background: url("../../assets/images/img_1.png") center no-repeat;
+    background-color: #4bbdec;
+    background-size: cover;
+    text-align: left;
+  }
+
+ .text-xs-center {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .OASP .markdown p {
+    text-align: left;
+    padding-left: 10%;
+    font-size: 12pt;
+  }
+  .OASP .markdown h2 {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .OASP .markdown li {
+    text-align: left;
+    margin-left: 10%;  
+    font-size: 12pt;  
+  }
+
+  .btn-primary {
+    color: white;
+    background-color: transparent;
+    border-color: white;
+    border-radius: 72px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 52px;
+    font-size: 10pt;
+    border-width: 2px;
+    font-family: Montserrat-Regular;
+    cursor: pointer;
+    margin-right: 20px;
+    margin-left: 20px;
+  }
+ }
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) { 
+
+  .OASP .markdown p {
+    text-align: left;
+    padding-left: 10%;
+    font-size: 12pt;
+  }
+  .OASP .markdown h2 {
+    text-align: left;
+    margin-left: 10%;
+  }
+
+  .OASP .markdown li {
+    text-align: left;
+    margin-left: 10%;  
+    font-size: 12pt;  
+  }
+ }
 
