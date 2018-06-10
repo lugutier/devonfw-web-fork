@@ -1,6 +1,6 @@
 <div class="container-fluid about">
   <div class="container">
-    <ngb-tabset type="pills" class="tabset">
+    <ngb-tabset type="pills" class="tabset d-none d-lg-block d-xl-block">
       <ngb-tab title="One Flexible Solution">
         <ng-template ngbTabContent>
           <div class="row">
@@ -139,16 +139,16 @@
     </ngb-tabset>
 
 
+    <!-- ___________________________ Responsive UI (for mobiles and others)___________________________  -->
 
-    <!--version movil-->
-    <div class="col-10 offset-1 d-sm-none d-md-none d-inline">
+    <div class="col-11 offset-1 d-lg-none d-xl-none d-inline">
       <ngb-carousel>
         <ng-template ngbSlide>
           <div class="carousel-caption">
             <h3>One flexible solution</h3>
           </div>
           <div class="row">
-            <div class="col-sm-1 col-md-4 col-6">
+            <div class="col-4">
               <div class="gallery">
                 <img src="../../assets/images/desktop_icon.png" alt="Desktop apps">
                 <div class="desc">
@@ -156,7 +156,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-1 col-md-4 col-6">
+            <div class="col-4">
               <div class="gallery">
                 <img src="../../assets/images/web_icon.png" alt="Desktop apps">
                 <div class="desc">
@@ -164,7 +164,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-1 col-md-4 col-6">
+            <div class="col-4">
               <div class="gallery">
                 <img src="../../assets/images/mobile_icon.png" alt="Mobile apps">
                 <div class="desc">
@@ -172,7 +172,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-1 col-md-4 col-6">
+            <div class="col-4">
               <div class="gallery">
                 <img src="../../assets/images/batch_icon.png" alt="Desktop apps">
                 <div class="desc">
@@ -180,7 +180,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-1 col-md-4 col-6">
+            <div class="col-4">
               <div class="gallery">
                 <img src="../../assets/images/integration_icon.png" alt="Desktop apps">
                 <div class="desc">
@@ -188,7 +188,7 @@
                 </div>
               </div>
             </div>
-            <div class="col-sm-1 col-md-4 col-6">
+            <div class="col-4">
               <div class="gallery">
                 <img src="../../assets/images/cloud_icon.png" alt="Desktop apps">
                 <div class="desc">
@@ -204,17 +204,22 @@
             <h3>Architecture background</h3>
           </div>
           <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-11">
               <div class="markdown">
                 <ngx-md [path]="'../../assets/content/TABPANEL/architecture-background.md'">
                 </ngx-md>
               </div>
             </div>
-            <div class="col-sm-5 img">
+          </div>
+          <div class="row">
+            <div class="col-sm-11 img">
               <img cl src="../../assets/images/architecture_background.png" height="180px" width="330px">
             </div>
-            <!--More Info-->
-            <input type="button" class="btn btn-info more-info" value="More Info" onclick="location.href = 'https://github.com/oasp-forge/oasp4j-wiki/wiki/architecture';">
+          </div>
+          <div class="row">
+            <div class="col-sm-11">
+              <input type="button" class="btn btn-info more-info" value="More Info" onclick="location.href = 'https://github.com/oasp-forge/oasp4j-wiki/wiki/architecture';">
+            </div>
           </div>
         </ng-template>
 
@@ -223,13 +228,15 @@
             <h3>Architecture Patterns</h3>
           </div>
           <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-11">
               <div class="markdown">
                 <ngx-md [path]="'../../assets/content/TABPANEL/architecture-patterns.md'">
                 </ngx-md>
               </div>
             </div>
-            <div class="col-sm-5 img">
+          </div>
+          <div class="row">
+            <div class="col-sm-11 img">
               <img cl src="../../assets/images/OASP-Layering.png" height="180px" width="330px">
             </div>
           </div>
@@ -240,13 +247,15 @@
             <h3>Used Technologies</h3>
           </div>
           <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-11">
               <div class="markdown">
                 <ngx-md [path]="'../../assets/content/TABPANEL/used-technologies.md'">
                 </ngx-md>
               </div>
             </div>
-            <div class="col-sm-5 img">
+          </div>
+          <div class="row">
+            <div class="col-sm-11 img">
               <img cl src="../../assets/images/used-technologies.jpg" height="180px" width="330px">
             </div>
           </div>
@@ -257,17 +266,23 @@
             <h3>IDE</h3>
           </div>
           <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-11">
               <div class="markdown">
                 <ngx-md [path]="'../../assets/content/TABPANEL/ide.md'">
                 </ngx-md>
               </div>
             </div>
-            <div class="col-sm-5 img">
+          </div>
+          <div class="row">
+            <div class="col-sm-11 img">
               <img cl src="../../assets/images/ide.png" height="180px" width="330px">
             </div>
-            <!--More Info-->
-            <input type="button" class="btn btn-info more-info" value="More Info" onclick="location.href = 'https://github.com/devonfw/devon/wiki/getting-started-the-devon-ide';">
+          </div>
+          <div class="row">
+            <div class="col-sm-11 img">
+              <!--More Info-->
+              <input type="button" class="btn btn-info more-info" value="More Info" onclick="location.href = 'https://github.com/devonfw/devon/wiki/getting-started-the-devon-ide';">
+            </div>
           </div>
         </ng-template>
 
@@ -276,17 +291,18 @@
             <h3>Examples</h3>
           </div>
           <div class="row">
-            <div class="col-sm-7">
+            <div class="col-sm-11">
               <div class="markdown">
                 <ngx-md [path]="'../../assets/content/TABPANEL/examples.md'">
                 </ngx-md>
               </div>
             </div>
-            <div class="col-sm-5 img">
+          </div>
+          <div class="row">
+            <div class="col-sm-11 img">
               <img cl src="../../assets/images/examples.png" height="180px" width="330px">
             </div>
           </div>
-
         </ng-template>
       </ngb-carousel>
     </div>
