@@ -139,7 +139,7 @@ li {
   line-height: 15pt;
 }
 
-.btn{
+.btn {
   color: white;
   background-color: transparent;
   border-color: white;
@@ -156,14 +156,16 @@ li {
   margin-left: 10px;
 }
 
-.img{
+.img {
   height: 95%;
   width: 135%;
 }
 
 /*---------------------- ---------------------- Responsive UI -------------------------------------------- */
 
-@media (max-width: 767px) {
+/* // Extra small devices (portrait phones, less than 576px) */
+
+@media (max-width: 575.98px) {
   .about {
     height: auto;
   }
@@ -217,13 +219,6 @@ li {
     text-align: center;
     padding: 0px 10px;
   }
-}
-
-/* ----------- Mobile S----------- */
-
-/* Galaxy SIII in Chrome - 720x1280 */
-
-@media only screen and (min-width: 360px) and (max-width: 640px) {
   .about .markdown p {
     color: black !important;
     font-size: 12pt;
@@ -253,75 +248,297 @@ li {
     margin-top: 20px;
     margin-left: 100px;
   }
-
   .btn-info {
     color: #4bbdec;
     background-color: transparent;
     border-color: #4bbdec;
-    border-radius: 72px;
-    padding-left: 40px;
-    padding-right: 40px;
-    padding-top: 14px;
-    padding-bottom: 14px;
-    border-radius: 72px;
-    font-size: 12pt;
+    border-radius: 42px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+    font-size: 10pt;
     border-width: 2px;
     font-family: Montserrat-Regular;
     cursor: pointer;
     margin-right: 10px;
+    margin-left: 10%;
+  }
+  .img {
+    height: 95%;
+    width: 135%;
+    text-align: center;
   }
 }
 
-/* ----------- Mobile L----------- */
+/* // Small devices (landscape phones, 576px and up) */
 
-/* Full HD 1080x1920 (Google Pixel 2 in Chrome) and QHD 1440x2560 (Google Pixel 2 XL in Chrome)  */
+@media (min-width: 576px) and (max-width: 767.98px) {
+  .about {
+    height: auto;
+    background: url("../../assets/images/corte_4.png") -1300px 550px;
+  }
+  .text-xs-center {
+    text-align: center;
+  }
+  .about .tabset {
+    display: none;
+  }
+  .gallery img {
+    width: auto;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  li {
+    text-align: center
+  }
+  .about .container {
+    text-align: center;
+    align-content: center;
+    padding-right: 20px;
+  }
+  .carousel-indicators .active {
+    background-color: transparent;
+  }
+  .carousel-indicators {
+    top: -80px;
+  }
+  .carousel-item.active {
+    display: block!important;
+  }
+  .carousel-caption {
+    color: #4bbdec;
+    font-family: Montserrat-Medium;
+    font-size: 12pt;
+    font-weight: 200;
+    top: auto;
+    left: auto;
+    width: 100%;
+    position: relative;
+    float: none;
+    right: auto;
+  }
+  .about .carousel-caption h3 {
+    color: #4bbdec;
+    font-family: Montserrat-Medium;
+    font-size: 12pt;
+  }
+  p {
+    text-align: center;
+    padding: 0px 10px;
+  }
 
-@media only screen and (min-width: 411px) and (max-width: 731px) {
-
-}
-
-/* ----------- Tablet (iPad)----------- */
-
-@media only screen and (min-width: 768px) and (max-width: 1024px) {
-  .row {
+  .about .markdown h3 {
+    color: black;
+    font-size: 14pt;
+    margin-bottom: 30px;
     text-align: left;
-    padding-bottom: 15px;
-    margin-right: -40px;
-    margin-left: -30px;
   }
-
+  
+  .about .markdown h3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 15px;
+    margin: 20px 0px;
+    width: 15%;
+    background-color: white;
+    height: 4px;
+  }
+  
+  .about .markdown h4 {
+    color: black;
+    font-family: montserrat-Regular;
+    font-size: 16pt;
+  }
+  
   .about .markdown p {
     color: black !important;
     font-size: 10pt;
     font-family: montserrat-Regular;
     font-style: normal;
-    font-weight: 200;
-    line-height: 15pt;
+    font-weight: 100;
+    line-height: 20pt;
+    text-align: left;
   }
+  
   .about .markdown li {
     color: black !important;
     font-size: 10pt;
     font-family: montserrat-Regular;
     font-style: normal;
-    font-weight: 200;
+    font-weight: 100;
     padding: 5px 0px;
     list-style-type: square;
-    line-height: 15pt;
+    line-height: 12pt;
     text-align: left;
+  }
+  
+  .btn {
+    color: #4bbdec;
+    background-color: transparent;
+    border-color: #4bbdec;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 60px;
+    font-size: 10pt;
+    border-width: 2px;
+    font-family: Montserrat-Regular;
+    cursor: pointer;
+  }
+
+  .more-info {
+    margin-top: 20px;
+    margin-left:-330px;
+  }
+}
+
+/* // Medium devices (tablets, 768px and up) */
+
+@media (min-width: 768px) and (max-width: 991.98px) {
+
+  .about {
+    height: auto;
+    background: url("../../assets/images/corte_4.png") -1700px -2000px;
+  }
+  .text-xs-center {
+    text-align: center;
+  }
+  .about .tabset {
+    display: none;
+  }
+  .gallery img {
+    width: auto;
+    height: 60px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+  }
+  li {
+    text-align: center
+  }
+  .about .container {
+    text-align: center;
+    align-content: center;
+    padding-right: 20px;
+  }
+  .carousel-indicators .active {
+    background-color: transparent;
+  }
+  .carousel-indicators {
+    top: -80px;
+  }
+  .carousel-item.active {
+    display: block!important;
+  }
+  .carousel-caption {
+    color: #4bbdec;
+    font-family: Montserrat-Medium;
+    font-size: 12pt;
+    font-weight: 200;
+    top: auto;
+    left: auto;
+    width: 100%;
+    position: relative;
+    float: none;
+    right: auto;
   }
   .about .carousel-caption h3 {
     color: #4bbdec;
     font-family: Montserrat-Medium;
-    font-size: 10pt;
+    font-size: 12pt;
   }
+  p {
+    text-align: center;
+    padding: 0px 10px;
+  }
+
   .about .markdown h3 {
     color: black;
-    font-size: 12pt;
+    font-size: 14pt;
     margin-bottom: 30px;
+    text-align: left;
+  }
+  
+  .about .markdown h3::after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 15px;
+    margin: 20px 0px;
+    width: 15%;
+    background-color: white;
+    height: 4px;
+  }
+  
+  .about .markdown h4 {
+    color: black;
+    font-family: montserrat-Regular;
+    font-size: 16pt;
+  }
+  
+  .about .markdown p {
+    color: black !important;
+    font-size: 10pt;
+    font-family: montserrat-Regular;
+    font-style: normal;
+    font-weight: 100;
+    line-height: 20pt;
+    text-align: left;
+  }
+  
+  .about .markdown li {
+    color: black !important;
+    font-size: 10pt;
+    font-family: montserrat-Regular;
+    font-style: normal;
+    font-weight: 100;
+    padding: 5px 0px;
+    list-style-type: square;
+    line-height: 12pt;
+    text-align: left;
+  }
+  
+  .btn {
+    color: #4bbdec;
+    background-color: transparent;
+    border-color: #4bbdec;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 11px;
+    padding-bottom: 11px;
+    border-radius: 60px;
+    font-size: 10pt;
+    border-width: 2px;
+    font-family: Montserrat-Regular;
+    cursor: pointer;
   }
 
   .more-info {
-    margin-top: 10px;
-    margin-left: 550px;
+    margin-top: 20px;
+    margin-left:-80%;
   }
+
+  .img {
+    height: 95%;
+    width: 135%;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+
+@media (min-width: 992px) and (max-width: 1199.98px) {
+
+  .img {
+    height: 75%;
+    width: 110%;
+  }
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+
+@media (min-width: 1200px) {
+
 }
