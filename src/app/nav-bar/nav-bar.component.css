@@ -1,5 +1,5 @@
 @font-face {
-  font-family: Montserrat-Medium;
+  font-family: Monfont-sizetserrat-Medium;
   src: url("../../assets/fonts/Montserrat-Medium.ttf")
 }
 
@@ -21,7 +21,7 @@
 .navbar-light .navbar-nav .nav-link {
   color: #FFFFFF;
   font-family: Montserrat-Regular;
-  font-size: 14px;
+  font-size: 13.5px;
 }
 
 /* vertical bar between menu items*/
@@ -46,10 +46,10 @@
 .nav-item {
   text-align: center;
   vertical-align: middle;
-    display: block;
-    border-right: 1px solid white;
-    padding-top: 0;
-    padding-bottom: 0;
+  display: block;
+  border-right: 1px solid white;
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 .nav-item:last-child{
@@ -68,7 +68,6 @@ img {
 }
 
 .cg_internal, .nav>li>a.cg_internal {
-
   text-align: center;
 }
 
@@ -88,7 +87,7 @@ img {
 .dropdown-item {
   color: #ffffff;
   font-family: Montserrat-Regular;
-  font-size: 14px;
+  font-size: 13.5px;
 }
 
 .dropdown-item:hover {
@@ -104,13 +103,18 @@ img {
 
 /* ----------- Mobile S----------- */
 
-@media only screen and (min-width: 320px) and (max-width: 604px) {
+
+
+@media only screen and (max-width: 359px) {
   .collapse.navbar-collapse.show {
-    margin-top: 12px;
   }
   img {
     width: 114px;
     height: 64px;
+  }
+
+  .nav-item{
+    border: none;
   }
 
   .dropdown-menu {
@@ -118,7 +122,9 @@ img {
     margin-right: -150px;
     border: transparent;
     margin-left: -50px;
+    border: none;
   }
+
 }
 
 
@@ -127,11 +133,15 @@ img {
 @media only screen and (min-width: 360px) and (max-width: 640px) {
 
   .collapse.navbar-collapse.show {
-    margin-top: 12px;
+
   }
   img {
     width: 114px;
     height: 64px;
+  }
+
+  .nav-item{
+    border: none;
   }
 
   .dropdown-menu {
@@ -139,6 +149,7 @@ img {
     margin-right: -170px;
     border: transparent;
     margin-left: -30px;
+    border: none;
   }
 }
 
@@ -146,11 +157,15 @@ img {
 
 @media only screen and (min-width: 375px) and (max-width: 604px) {
   .collapse.navbar-collapse.show {
-    margin-top: 12px;
+
   }
   img {
     width: 114px;
     height: 64px;
+  }
+
+  .nav-item{
+    border: none;
   }
 
   .dropdown-menu {
@@ -167,11 +182,15 @@ img {
 
 @media only screen and (min-width: 411px) and (max-width: 731px) {
   .collapse.navbar-collapse.show {
-    margin-top: 12px;
+
   }
   img {
     width: 114px;
     height: 64px;
+  }
+
+  .nav-item{
+    border: none;
   }
 
   .dropdown-menu {
@@ -185,19 +204,39 @@ img {
 /* ----------- Tablet (iPad)----------- */
 
 @media only screen and (min-width: 768px) and (max-width: 1024px) {
+  .navbar{
+    padding-bottom: 45px;
+  }
   .collapse.navbar-collapse.show {
-    margin-top: 12px;
+
   }
   img {
     width: 114px;
     height: 64px;
   }
 
+  .nav-item{
+    border: none;
+  }
+
+  .nav-link{
+    font-size: 14px;
+  }
+
+  /* horizontal dropdown menu*/
+  .dropdown-menu>li {
+    display: inline-block;
+  }
   .dropdown-menu {
     background-color: #4bbdec;
-    margin-right: 10px;
+    margin-right: -1000px;
     border: transparent;
-    margin-left: 180px;
+    margin-left: 150px;
+  }
+  .dropdown-item {
+    color: #ffffff;
+    font-family: Montserrat-Regular;
+    font-size: 10px;
   }
 }
 
@@ -206,13 +245,16 @@ img {
 /* ----------- iPad Pro 12.9" ----------- */
 
 @media only screen and (min-width: 1024px) and (max-width: 1366px) {
+  .navbar{
+    padding-bottom: 30px;
+  }
   .collapse.navbar-collapse.show {
-    margin-top: 5px;
+
   }
   .navbar-light .navbar-nav .nav-link {
     color: #FFFFFF;
     font-family: Montserrat-Regular;
-    font-size: 10px;
+    font-size: 12px;
     margin: 1px;
   }
 
@@ -228,6 +270,9 @@ img {
   img {
     width: 100px;
     height: 60px;
+  }
+  .nav-item{
+    border: none;
   }
   /* horizontal dropdown menu*/
   .dropdown-menu>li {
