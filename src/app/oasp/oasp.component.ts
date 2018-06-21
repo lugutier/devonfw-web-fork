@@ -18,7 +18,7 @@ export class OASPComponent implements OnInit {
   ngOnInit() {
 
     $.ajax({
-      url: 'oasp',
+      url: 'https://troom.capgemini.com/sites/vcc/devon/overview.aspx',
       dataType: 'jsonp',
       method: 'GET',
       timeout: 2000,
@@ -35,5 +35,4 @@ export class OASPComponent implements OnInit {
       }
     });
 }
-
 }

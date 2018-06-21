@@ -4,4 +4,4 @@ The OASP4J fills the gaps between JEE standards open-source frameworks to provid
 
 [Code](https://github.com/oasp/oasp4j/)
 [Maven Repo](http://repo1.maven.org/maven2/io/oasp/java/)
-[Jenkins](http://oasp-ci.cloudapp.net/jenkins)
+[Travis CI](https://travis-ci.org/oasp/oasp4j)
