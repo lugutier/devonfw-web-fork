@@ -1,0 +1,11 @@
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+  background-color: #4bbdec !important;
+}
+.nav-properties a {
+  color: #fff !important;
+}

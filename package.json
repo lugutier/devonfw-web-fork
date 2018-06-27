@@ -1,0 +1,40 @@
+{
+  "name": "oasp-new-website",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "webpack --mode development",
+    "build": "webpack --mode production",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/lauransauco/oasp-new-website.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/lauransauco/oasp-new-website/issues"
+  },
+  "homepage": "https://github.com/lauransauco/oasp-new-website#readme",
+  "devDependencies": {
+    "autoprefixer": "^8.6.3",
+    "css-loader": "^0.28.11",
+    "exports-loader": "^0.7.0",
+    "node-sass": "^4.9.0",
+    "postcss-loader": "^2.1.5",
+    "sass-loader": "^7.0.3",
+    "style-loader": "^0.21.0",
+    "webpack": "^4.12.2",
+    "webpack-command": "^0.3.0"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.1",
+    "gem": "^2.4.3",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.3",
+    "ruby": "^0.6.1"
+  },
+  "description": ""
+}
