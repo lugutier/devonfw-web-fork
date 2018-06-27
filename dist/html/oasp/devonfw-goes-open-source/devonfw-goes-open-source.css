@@ -1,8 +1,9 @@
 .OASP {
   background: url("../../../assets/images/backgrounds/backgroung-laptop.png") center no-repeat;
+  font-family: montserrat-light;
   background-color: #4bbdec;
   background-size: cover;
-}
+} /*
 
 .OASP .markdown p {
   color: white;
@@ -57,16 +58,16 @@
 }
 .OASP .markdown h2::after {
   display: none;
+}*/
+
+a.btn-primary {
+  border-radius: 76px;
 }
 
-.btn.btn-outline-light.text-white a{
-  color: black;
-  border-radius: 17px;
-}
-/*
-.btn-outline-light a {
-  border-radius: 17px;
-}
-.btn-outline-light .text-white :hover {
+a.btn-outline-light:hover {
   color: #4bbdec;
-}*/
+}
+
+a.btn-outline-light {
+  border-width: 2px;
+}
