@@ -58,3 +58,15 @@
 .OASP .markdown h2::after {
   display: none;
 }
+
+.btn.btn-outline-light.text-white a{
+  color: black;
+  border-radius: 17px;
+}
+/*
+.btn-outline-light a {
+  border-radius: 17px;
+}
+.btn-outline-light .text-white :hover {
+  color: #4bbdec;
+}*/
