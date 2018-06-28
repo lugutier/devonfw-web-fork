@@ -1,0 +1,56 @@
+/* NAVIGATION BAR */
+
+html {
+  line-height: 1.15;
+  -webkit-text-size-adjust: 100%;
+  font-family: 'Montserrat', sans-serif;
+}
+.navbar {
+  background-color: #4bbdec !important;
+}
+.nav-properties a {
+  color: #fff !important;
+}
+
+/* OASP */
+
+.OASP {
+  background: url("/assets/images/backgrounds/backgroung-laptop.png") center no-repeat;
+  font-family: montserrat-light;
+  background-color: #4bbdec;
+  background-size: cover;
+}
+
+a.btn-primary {
+  border-radius: 76px;
+}
+
+a.btn-outline-light:hover {
+  color: #4bbdec;
+}
+
+a.btn-outline-light {
+  border-width: 2px;
+}
+
+/* FONTS */
+
+@font-face {
+  font-family: Montserrat-Regular;
+  src: url('/assets/fonts/Montserrat-Regular.ttf');
+}
+
+@font-face {
+  font-family: Montserrat-Bold;
+  src: url('/assets/fonts/Montserrat-Bold.ttf');
+}
+
+@font-face {
+  font-family: montserrat-light;
+  src: url('/assets/fonts/Montserrat-Light.ttf');
+}
+
+@font-face {
+  font-family: montserrat-Extralight;
+  src: url('/assets/fonts/Montserrat-ExtraLight.ttf');
+}
