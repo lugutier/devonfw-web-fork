@@ -1,10 +1,15 @@
 $(document).ready(function () {
+    loadInsertions();
+    hideAndShowNetworkElements();
+});
+
+function loadInsertions() {
     $("insertHtml").each(function (i) {
         $(this).load($(this).attr("url"));
     });
-});
+}
 
-function ping() {
+function hideAndShowNetworkElements() {
     $.ajax({
         url: 'https://troom.capgemini.com/sites/vcc/devon/overview.aspx',
         dataType: 'jsonp',
@@ -12,15 +17,11 @@ function ping() {
         timeout: 2000,
         error: function (hrx, textStatus, error) {
             if (textStatus === 'parsererror') {
-                //$('.cg_internal').show();
-                //$('.extern').hide();
-                /*$('[data-cap-href]').each(function () {
-                    $(this).attr('href', $(this).data('cap-href'));
-                });*/
-                alert('reply');
+                $('.only-internal').show();
+                $('.only-external').hide();
             } else {
-                //$('.extern').show();
-                alert('timeout/error');
+                $('.only-internal').hide();
+                $('.only-external').show();
             }
         }
     });
