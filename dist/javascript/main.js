@@ -3,6 +3,7 @@ $(document).ready(function () {
     hideAndShowNetworkElements();
 });
 
+
 function loadInsertions() {
     $("insertHtml").each(function (i) {
         $(this).load($(this).attr("url"));
