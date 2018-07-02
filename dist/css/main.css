@@ -21,15 +21,15 @@ html {
   background-size: cover;
 }
 
-a.btn-primary {
+.OASP a.btn-primary {
   border-radius: 76px;
 }
 
-a.btn-outline-light:hover {
+.OASP a.btn-outline-light:hover {
   color: #4bbdec;
 }
 
-a.btn-outline-light {
+.OASP a.btn-outline-light {
   border-width: 2px;
 }
 
