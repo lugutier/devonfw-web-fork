@@ -4,6 +4,7 @@ html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   font-family: 'Montserrat', sans-serif;
+  font-size: 85%;
 }
 .navbar {
   background-color: #4bbdec !important;
@@ -12,10 +13,27 @@ html {
   color: #fff !important;
 }
 
+.submenu-technologystack:hover {
+  display: inline-block;
+  position: absolute;
+  list-style: none;
+}
+
+.submenu-technologystack a {
+  display: none;
+  position: absolute;
+}
+
+.submenu-technologystack a:hover {
+  display: block;
+  background-color: #61a9bd;
+}
+
 /* OASP */
 
 .OASP {
-  background: url("/assets/images/backgrounds/backgroung-laptop.png") center no-repeat;
+  background: url('/assets/images/backgrounds/backgroung-laptop.png') center
+    no-repeat;
   font-family: montserrat-light;
   background-color: #4bbdec;
   background-size: cover;

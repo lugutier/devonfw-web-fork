@@ -1,53 +1,61 @@
 <nav class="navbar navbar-expand-md navbar-light">
     <a href="#" class="navbar-brand">
-        <img class="LogoDevonfw" src="assets/images/devonfw-oasp.png" alt="Chania" width="50%" height="50%">
+        <img class="LogoDevonfw" src="assets/images/devonfw-oasp.png" alt="devonfw" width="50%" height="50%">
     </a>
-    <button class="navbar-toggler btn-primary" data-toggle="collapse" data-target="#navbarMenu">
+    <button class="navbar-toggler btn-primary" data-toggle="collapse" data-target="#navbarMenu">&#9776
         <span class="navbar-toggle-icon"></span>
     </button>
     <!--Nav menu for public networks
-        <div class="collapse navbar-collapse" id="navbarMenu">
+        <div class="only-external collapse navbar-collapse" id="navbarMenu">
             <ul class="navbar-nav mr-auto">
                 <li class="nav-item">
-                    <a href="#" class="nav-link">OASP</a>
+                    <a href="http://www.devonfw.com/oasp">OASP</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">OASP4J</a>
+                    <a href="http://www.devonfw.com/oasp4-j">OASP4J</a>
                 </li>
                 <li class="nav-item">
-                    <a href="#" class="nav-link">OASP4JS</a>
+                    <a href="http://www.devonfw.com/oasp4-js">OASP4JS</a>
                 </li>
             </ul>
         </div>-->
     <!--Nav menu for the intranet network-->
-    <div class="collapse navbar-collapse nav-properties" id="navbarMenu">
-        <ul class="navbar-nav mr-auto row justify-content-center align-items-center text-white">
+    <div id="navbarMenu" class="only-internal collapse navbar-collapse nav-properties">
+        <ul class="navbar-nav mr-auto row-1 justify-content-center align-items-center text-white">
             <li class="nav-item">
-                <a href="#" class="nav-link">Overview</a>
+                <a href="https://troom.capgemini.com/sites/vcc/devon/overview.aspx#" class="nav-link">Overview</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Technology Stack</a>
+                <a class="nav-link" href="#" data-toggle="collapse" data-target="#itemOASP">Technology Stack</a>
+                <div id="itemOASP" class="collapse">
+                    <ul class="navbar-nav align-items-center">
+                        <!--TODO: add links to internal directory -->
+                        <a class="nav-link" href="html/oasp/">OASP</a>
+                        <a class="nav-link" href="html/oasp4J/">OASP4J</a>
+                        <a class="nav-link" href="html/oasp4Js/">OASP4JS</a>
+                    </ul>
+                </div>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Roadmap & Releases</a>
+                <a href="https://troom.capgemini.com/sites/vcc/devon/roadmap.aspx" class="nav-link">Roadmap & Releases</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">IP Catalog</a>
+                <a href="https://troom.capgemini.com/sites/vcc/devon/ipcatalog.aspx" class="nav-link">IP Catalog</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Community</a>
+                <a href="https://troom.capgemini.com/sites/vcc/devon/collaboration.aspx" class="nav-link">Community</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Sales & Marketing</a>
+                <a href="https://troom.capgemini.com/sites/vcc/devon/references.aspx" class="nav-link">Sales & Marketing</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Training Hub</a>
+                <a href="https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx" class="nav-link">Training Hub</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">FAQs</a>
+                <a href="https://troom.capgemini.com/sites/vcc/devon/faq.aspx" class="nav-link">FAQs</a>
             </li>
             <li class="nav-item">
-                <a href="#" class="nav-link">Getting Started</a>
+                <a href="https://troom.capgemini.com/sites/vcc/devon/getstarted.aspx" class="nav-link">Getting Started</a>
             </li>
         </ul>
     </div>
