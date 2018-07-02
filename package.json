@@ -1,7 +1,7 @@
 {
   "name": "bootstrap-webpack",
   "version": "1.0.0",
-  "description": "",
+  "description": "Welcome to the new Devonfw help page.\r ## Installation\r This project is a simple plain html/css/javascript **landing page**.\r It includes many scripts coded in **ajax & jQuery**.",
   "main": "index.js",
   "scripts": {
     "build": "webpack",
@@ -11,18 +11,27 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "autoprefixer": "^8.6.3",
+    "autoprefixer": "^8.6.4",
     "css-loader": "^0.28.11",
+    "exports-loader": "^0.7.0",
     "node-sass": "^4.9.0",
     "postcss-loader": "^2.1.5",
     "sass-loader": "^7.0.3",
     "style-loader": "^0.21.0",
-    "webpack": "^4.12.1",
+    "webpack": "^4.14.0",
     "webpack-cli": "^3.0.8"
   },
   "dependencies": {
     "bootstrap": "^4.1.1",
     "jquery": "^3.3.1",
     "popper.js": "^1.14.3"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Josecongas/oasp-new-website.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Josecongas/oasp-new-website/issues"
+  },
+  "homepage": "https://github.com/Josecongas/oasp-new-website#readme"
 }

@@ -19,6 +19,17 @@ html {
   list-style: none;
 }
 
+#itemOASP {
+  position: fixed;
+}
+
+@media (max-width: 768px){
+  #itemOASP {
+  position: relative;
+  text-align: center;
+}
+}
+
 .submenu-technologystack a {
   display: none;
   position: absolute;
