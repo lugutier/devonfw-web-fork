@@ -29,11 +29,21 @@ html {
   background-color: #61a9bd;
 }
 
+
+/* FOOTER */
+
+.footer{
+    background: url("../../assets/images/capgemini.png") center no-repeat;
+    font-family: mMontserrat-Regular;
+    background-position-y: 250px;
+    background-size: cover;
+    z-index: 1;
+}
+
 /* OASP */
 
 .OASP {
-  background: url('/assets/images/backgrounds/backgroung-laptop.png') center
-    no-repeat;
+  background: url('/assets/images/backgrounds/backgroung-laptop.png') center no-repeat;
   font-family: montserrat-light;
   background-color: #4bbdec;
   background-size: cover;
