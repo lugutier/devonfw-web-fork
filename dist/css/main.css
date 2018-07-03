@@ -27,6 +27,7 @@ html {
   #itemOASP {
   position: relative;
   text-align: center;
+
 }
 }
 
@@ -51,25 +52,52 @@ html {
     z-index: 1;
 }
 
+/* OASP-CONTAINER*/
+
+.OASP-CONTAINER {
+  padding-top: 80px;
+}
+
 /* OASP */
 
 .OASP {
-  background: url('/assets/images/backgrounds/backgroung-laptop.png') center no-repeat;
   font-family: montserrat-light;
-  background-color: #4bbdec;
-  background-size: cover;
 }
 
-.OASP a.btn-primary {
+.OASP .btn {
   border-radius: 76px;
 }
 
-.OASP a.btn-outline-light:hover {
+.OASP .btn-primary {
+  border-color: #4bbdec;
+  border-width: 2px;
+  background-color: transparent;
   color: #4bbdec;
 }
 
-.OASP a.btn-outline-light {
+.OASP .btn-primary:hover {
+  background-color: #4bbdec;
+  color: white;
+}
+
+.OASP .btn-secondary{
+  border-color: white;
   border-width: 2px;
+  background-color: #4bbdec;
+  color: white;
+}
+
+.OASP .btn-secondary:hover{
+  background-color: white;
+  color: #4bbdec;
+}
+
+/* DEVONFW GOES OPEN SOURCE*/
+
+.DEVONFW-GOES-OPENSOURCE {
+  background: url('/assets/images/backgrounds/backgroung-laptop.png') center no-repeat;
+  background-color: #4bbdec;
+  background-size: cover;
 }
 
 /* FONTS */

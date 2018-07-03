@@ -1,26 +1,12 @@
-<nav class="navbar navbar-expand-md navbar-light">
+<nav class="navbar navbar-expand-md navbar-light fixed-top">
     <a href="#" class="navbar-brand">
         <img class="LogoDevonfw" src="/assets/images/devonfw-oasp.png" alt="devonfw" width="50%" height="50%">
     </a>
     <button class="navbar-toggler btn-primary" data-toggle="collapse" data-target="#navbarMenu">&#9776
         <span class="navbar-toggle-icon"></span>
     </button>
-    <!--Nav menu for public networks
-        <div class="only-external collapse navbar-collapse" id="navbarMenu">
-            <ul class="navbar-nav mr-auto">
-                <li class="nav-item">
-                    <a href="http://www.devonfw.com/oasp">OASP</a>
-                </li>
-                <li class="nav-item">
-                    <a href="http://www.devonfw.com/oasp4-j">OASP4J</a>
-                </li>
-                <li class="nav-item">
-                    <a href="http://www.devonfw.com/oasp4-js">OASP4JS</a>
-                </li>
-            </ul>
-        </div>-->
-    <!--Nav menu for the intranet network-->
-    <div id="navbarMenu" class="only-internal collapse navbar-collapse nav-properties">
+
+    <div id="navbarMenu" class="collapse navbar-collapse nav-properties">
         <ul class="navbar-nav mr-auto row-1 justify-content-center align-items-center text-white">
             <li class="nav-item">
                 <a href="https://troom.capgemini.com/sites/vcc/devon/overview.aspx#" class="nav-link">Overview</a>
@@ -30,33 +16,42 @@
                 <div id="itemOASP" class="collapse">
                     <ul class="navbar-nav align-items-center">
                         <div class="justify-content-center">
-                        <a class="nav-link" href="html/oasp/">OASP</a>
-                        <a class="nav-link" href="html/oasp4J/">OASP4J</a>
-                        <a class="nav-link" href="html/oasp4Js/">OASP4JS</a>
+                            <a class="nav-link" href="/oasp">OASP</a>
+                            <a class="nav-link" href="/oasp4-j">OASP4J</a>
+                            <a class="nav-link" href="/oasp4-js">OASP4JS</a>
                         </div>
                     </ul>
                 </div>
             </li>
-            <li class="nav-item">
+            <li class="nav-item only-internal">
                 <a href="https://troom.capgemini.com/sites/vcc/devon/roadmap.aspx" class="nav-link">Roadmap & Releases</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item only-internal">
                 <a href="https://troom.capgemini.com/sites/vcc/devon/ipcatalog.aspx" class="nav-link">IP Catalog</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item only-internal">
                 <a href="https://troom.capgemini.com/sites/vcc/devon/collaboration.aspx" class="nav-link">Community</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item only-internal">
                 <a href="https://troom.capgemini.com/sites/vcc/devon/references.aspx" class="nav-link">Sales & Marketing</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item only-internal">
                 <a href="https://troom.capgemini.com/sites/vcc/devon/training_hub.aspx" class="nav-link">Training Hub</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item only-internal">
                 <a href="https://troom.capgemini.com/sites/vcc/devon/faq.aspx" class="nav-link">FAQs</a>
             </li>
-            <li class="nav-item">
+            <li class="nav-item only-internal">
                 <a href="https://troom.capgemini.com/sites/vcc/devon/getstarted.aspx" class="nav-link">Getting Started</a>
+            </li>
+            <li class="nav-item only-external">
+                <a href="/oasp">OASP</a>
+            </li>
+            <li class="nav-item only-external">
+                <a href="/oasp4-j">OASP4J</a>
+            </li>
+            <li class="nav-item only-external">
+                <a href="/oasp4-js">OASP4JS</a>
             </li>
         </ul>
     </div>
