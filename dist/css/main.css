@@ -45,7 +45,7 @@ html {
 
 .footer{
     background: url("../../assets/images/capgemini.png") center no-repeat;
-    font-family: mMontserrat-Regular;
+    font-family: Montserrat-Regular;
     background-position-y: 250px;
     background-size: cover;
     z-index: 1;
