@@ -1,3 +1,9 @@
+/* VARIABLES */
+
+:root {
+  --main-theme-color: #4bbdec;
+}
+
 /* NAVIGATION BAR */
 
 html {
@@ -6,11 +12,17 @@ html {
   font-family: 'Montserrat', sans-serif;
   font-size: 85%;
 }
-.navbar {
-  background-color: #4bbdec !important;
+
+.NAV-MENU {
+  background-color: var(--main-theme-color) !important;
 }
-.nav-properties a {
-  color: #fff !important;
+
+.NAV-MENU a {
+  color: white !important;
+}
+
+.NAV-MENU a:hover {
+  color: #61a9bd !important;
 }
 
 .submenu-technologystack:hover {
@@ -69,34 +81,56 @@ html {
 }
 
 .OASP .btn-primary {
-  border-color: #4bbdec;
+  border-color: var(--main-theme-color);
   border-width: 2px;
   background-color: transparent;
-  color: #4bbdec;
+  color: var(--main-theme-color)
 }
 
 .OASP .btn-primary:hover {
-  background-color: #4bbdec;
+  background-color: var(--main-theme-color);
   color: white;
 }
 
 .OASP .btn-secondary{
   border-color: white;
   border-width: 2px;
-  background-color: #4bbdec;
+  background-color: var(--main-theme-color);
   color: white;
 }
 
 .OASP .btn-secondary:hover{
   background-color: white;
-  color: #4bbdec;
+  color: var(--main-theme-color);
 }
+
+/* OASP-SIDEBAR */
+
+.OASP-SIDEBAR {
+  box-shadow: 0 0 20px rgba(68, 68, 68, 0.3);
+  padding: 0px;
+  z-index: 1;
+}
+
+.OASP-SIDEBAR li{
+  border-left: 6px solid var(--main-theme-color);
+}
+
+.OASP-SIDEBAR a{
+  color: black;
+}
+
+.OASP-SIDEBAR a:hover{
+  color: var(--main-theme-color);
+}
+
+
 
 /* DEVONFW GOES OPEN SOURCE*/
 
 .DEVONFW-GOES-OPENSOURCE {
   background: url('/assets/images/backgrounds/backgroung-laptop.png') center no-repeat;
-  background-color: #4bbdec;
+  background-color: var(--main-theme-color);
   background-size: cover;
 }
 
