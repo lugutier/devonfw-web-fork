@@ -4,6 +4,10 @@
   --main-theme-color: #4bbdec;
 }
 
+body {
+  position:relative;
+}
+
 /* NAVIGATION BAR */
 
 html {
@@ -118,6 +122,10 @@ html {
 
 .OASP-SIDEBAR a{
   color: black;
+}
+
+.OASP-SIDEBAR a.active{
+  color: var(--main-theme-color);
 }
 
 .OASP-SIDEBAR a:hover{

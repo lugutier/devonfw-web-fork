@@ -13,17 +13,27 @@
 </head>
 
 <body>
-    <!-- NAV BAR-->
-    <insertHtml url="/html/nav-menu/menu.html"></insertHtml>
-    <!-- CONTENT -->
-    <div class="container container-fluid OASP OASP-CONTAINER">
-        <div class="row">
-            <!-- SIDE BAR-->
-            <div class="col-3">
+    <!-- NAVIGATION-->
+    <div class="fixed-top">
+        <!-- NAV BAR -->
+        <insertHtml url="/html/nav-menu/menu.html"></insertHtml>
+        <!-- SIDE BAR -->
+        <div class="row container-fluid OASP m-0 px-0 ">
+            <div class="col-3 m-0 p-0">
                 <insertHtml url="/oasp4-js/sections/sidenav.html"></insertHtml>
             </div>
+        </div>
+    </div>
+
+    <!-- CONTENT -->
+    <div class="container-fluid OASP OASP-CONTAINER m-0 px-0">
+        <div class="row m-0 p-0">
+            <!-- GHOST COLUMN-->
+            <div class="col-3 m-0 p-0">
+
+            </div>
             <!-- CONTENT -->
-            <div class="col-9">
+            <div class="col-9 m-0 p-0">
                 <insertHtml url="/oasp4-js/sections/introduction.html"></insertHtml>
                 <insertHtml url="/oasp4-js/sections/overview.html"></insertHtml>
                 <insertHtml url="/oasp4-js/sections/getting-started.html"></insertHtml>
