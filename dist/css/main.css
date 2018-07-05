@@ -107,7 +107,7 @@ html {
 /* OASP-SIDEBAR */
 
 .OASP-SIDEBAR {
-  box-shadow: 0 0 20px rgba(68, 68, 68, 0.3);
+  box-shadow: 0 0 20px #4445;
   padding: 0px;
   z-index: 1;
 }
