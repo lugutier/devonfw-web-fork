@@ -4,6 +4,10 @@
   --main-theme-color: #4bbdec;
 }
 
+body {
+  position:relative;
+}
+
 /* NAVIGATION BAR */
 
 html {
@@ -179,7 +183,11 @@ padding: 40px;}
   color: black;
 }
 
-.OASP-SIDEBAR a:hover {
+.OASP-SIDEBAR a.active{
+  color: var(--main-theme-color);
+}
+
+.OASP-SIDEBAR a:hover{
   color: var(--main-theme-color);
 }
 
