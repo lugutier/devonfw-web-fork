@@ -19,6 +19,7 @@ html {
 
 .NAV-MENU {
   background-color: var(--main-theme-color) !important;
+  box-shadow: 0px 6px 6px -4px #4445;
 }
 
 .NAV-MENU a {
@@ -26,17 +27,7 @@ html {
 }
 
 .NAV-MENU a:hover {
-  color: #61a9bd !important;
-}
-
-.submenu-technologystack:hover {
-  display: inline-block;
-  position: absolute;
-  list-style: none;
-}
-
-#itemOASP {
-  position: fixed;
+  color: #dff0f5 !important;
 }
 
 @media (max-width: 768px) {
@@ -44,16 +35,6 @@ html {
     position: relative;
     text-align: center;
   }
-}
-
-.submenu-technologystack a {
-  display: none;
-  position: absolute;
-}
-
-.submenu-technologystack a:hover {
-  display: block;
-  background-color: #61a9bd;
 }
 
 /* FOOTER */
@@ -75,6 +56,10 @@ html {
 /* OASP (buttons) */
 
 .OASP {
+  font-family: montserrat-regular;
+}
+
+.OASP-light {
   font-family: montserrat-light;
 }
 
@@ -114,6 +99,7 @@ html {
 /* OASP-SIDEBAR */
 
 .OASP-SIDEBAR {
+  background-color: white !important;
   box-shadow: 0 0 20px #4445;
   padding: 0px;
   z-index: 1;
