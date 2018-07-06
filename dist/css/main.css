@@ -4,6 +4,10 @@
   --main-theme-color: #4bbdec;
 }
 
+body {
+  position: relative;
+}
+
 /* NAVIGATION BAR */
 
 html {
@@ -35,12 +39,11 @@ html {
   position: fixed;
 }
 
-@media (max-width: 768px){
+@media (max-width: 768px) {
   #itemOASP {
-  position: relative;
-  text-align: center;
-
-}
+    position: relative;
+    text-align: center;
+  }
 }
 
 .submenu-technologystack a {
@@ -53,15 +56,14 @@ html {
   background-color: #61a9bd;
 }
 
-
 /* FOOTER */
 
-.footer{
-    background: url("../../assets/images/capgemini.png") center no-repeat;
-    font-family: Montserrat-Regular;
-    background-position-y: 250px;
-    background-size: cover;
-    z-index: 1;
+.footer {
+  background: url('../../assets/images/capgemini.png') center no-repeat;
+  font-family: Montserrat-Regular;
+  background-position-y: 250px;
+  background-size: cover;
+  z-index: 1;
 }
 
 /* OASP-CONTAINER*/
@@ -70,7 +72,7 @@ html {
   padding-top: 80px;
 }
 
-/* OASP */
+/* OASP (buttons) */
 
 .OASP {
   font-family: montserrat-light;
@@ -84,7 +86,7 @@ html {
   border-color: var(--main-theme-color);
   border-width: 2px;
   background-color: transparent;
-  color: var(--main-theme-color)
+  color: var(--main-theme-color);
 }
 
 .OASP .btn-primary:hover {
@@ -92,44 +94,52 @@ html {
   color: white;
 }
 
-.OASP .btn-secondary{
+.OASP .btn-secondary {
   border-color: white;
   border-width: 2px;
   background-color: var(--main-theme-color);
   color: white;
 }
 
-.OASP .btn-secondary:hover{
+.OASP .btn-secondary:hover {
   background-color: white;
   color: var(--main-theme-color);
+}
+
+/* OASP-CONTAINER: Overview Section */
+.box-bottom-shadow {
+  box-shadow: 0px 12px 6px -4px #4445;
 }
 
 /* OASP-SIDEBAR */
 
 .OASP-SIDEBAR {
-  box-shadow: 0 0 20px rgba(68, 68, 68, 0.3);
+  box-shadow: 0 0 20px #4445;
   padding: 0px;
   z-index: 1;
 }
 
-.OASP-SIDEBAR li{
+.OASP-SIDEBAR li {
   border-left: 6px solid var(--main-theme-color);
 }
 
-.OASP-SIDEBAR a{
+.OASP-SIDEBAR a {
   color: black;
 }
 
-.OASP-SIDEBAR a:hover{
+.OASP-SIDEBAR a.active {
   color: var(--main-theme-color);
 }
 
-
+.OASP-SIDEBAR a:hover {
+  color: var(--main-theme-color);
+}
 
 /* DEVONFW GOES OPEN SOURCE*/
 
 .DEVONFW-GOES-OPENSOURCE {
-  background: url('/assets/images/backgrounds/backgroung-laptop.png') center no-repeat;
+  background: url('/assets/images/backgrounds/backgroung-laptop.png') center
+    no-repeat;
   background-color: var(--main-theme-color);
   background-size: cover;
 }
