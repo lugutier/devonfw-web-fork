@@ -67,8 +67,9 @@ html {
 }
 
 /* GETTING STARTED */
+
 .gettingStarted {
-  right: 200px;
+ right: 200px;
 }
 
 .gettingStarted img {
@@ -77,31 +78,18 @@ html {
     margin-left: 30px;
 }
 
+
+#gettingStarted a {
+    color: #4bbdec !important;
+    text-decoration: none;
+    font-weight: 700 !important;
+}
+
 .sectionGrey {
   background-color: transparent;
   -webkit-box-shadow: inset 0px 0px 100px #e2e2e2;
   box-shadow: inset 0px 0px 100px #e2e2e2;
 }
-
-.articleDevonfw {
-    position: relative;
-    width: 75%;
-    float: right;
-    clear: both;
-    padding: 50px 0px;
-}
-
-/* .sectionGrey ::before {
-  content: '';
-  position: absolute;
-  display: block;
-  width: 2px;
-  background: #58acfa;
-  left: 15%;
-  top: 0px;
-  bottom: 0px;
-  margin-left: 8px;
-} */
 
 /* OASP-CONTAINER*/
 
@@ -166,6 +154,7 @@ padding: 40px;}
     font-weight: bold;
     float: left;
 }
+
 
 /* OASP-SIDEBAR */
 
