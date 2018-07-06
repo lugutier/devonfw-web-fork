@@ -4,18 +4,24 @@
   --main-theme-color: #4bbdec;
 }
 
-body {
-  position:relative;
-}
-
-/* NAVIGATION BAR */
-
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
   font-family: 'Montserrat', sans-serif;
   font-size: 85%;
 }
+
+body {
+  position:relative;
+}
+
+/* CUSTOM STYLES */
+
+.background-oasp {
+  background-color: var(--main-theme-color) !important;
+}
+
+/* NAVIGATION BAR */
 
 .NAV-MENU {
   background-color: var(--main-theme-color) !important;
