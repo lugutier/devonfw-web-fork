@@ -15,7 +15,11 @@ body {
   position:relative;
 }
 
-div {
+div{
+  word-wrap: break-word;
+}
+
+a{
   word-wrap: break-word;
 }
 
