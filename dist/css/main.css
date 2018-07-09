@@ -4,12 +4,6 @@
   --main-theme-color: #4bbdec;
 }
 
-body {
-  position: relative;
-}
-
-/* NAVIGATION BAR */
-
 html {
   line-height: 1.15;
   -webkit-text-size-adjust: 100%;
@@ -17,9 +11,25 @@ html {
   font-size: 85%;
 }
 
+body {
+  position:relative;
+}
+
+div {
+  word-wrap: break-word;
+}
+
+
+/* CUSTOM STYLES */
+
+.background-oasp {
+  background-color: var(--main-theme-color) !important;
+}
+
+/* NAVIGATION BAR */
+
 .NAV-MENU {
   background-color: var(--main-theme-color) !important;
-  box-shadow: 0px 6px 6px -4px #4445;
 }
 
 .NAV-MENU a {
@@ -27,7 +37,17 @@ html {
 }
 
 .NAV-MENU a:hover {
-  color: #dff0f5 !important;
+  color: #61a9bd !important;
+}
+
+.submenu-technologystack:hover {
+  display: inline-block;
+  position: absolute;
+  list-style: none;
+}
+
+#itemOASP {
+  position: fixed;
 }
 
 @media (max-width: 768px) {
@@ -35,6 +55,16 @@ html {
     position: relative;
     text-align: center;
   }
+}
+
+.submenu-technologystack a {
+  display: none;
+  position: absolute;
+}
+
+.submenu-technologystack a:hover {
+  display: block;
+  background-color: #61a9bd;
 }
 
 /* FOOTER */
@@ -47,20 +77,48 @@ html {
   z-index: 1;
 }
 
+/* GETTING STARTED */
+
+.gettingStarted {
+ right: 200px;
+}
+
+.gettingStarted img {
+    width: 50px;
+    padding: 0px;
+    margin-left: 30px;
+}
+
+
+#gettingStarted a {
+    color: #4bbdec !important;
+    text-decoration: none;
+    font-weight: 700 !important;
+}
+
+.sectionGrey {
+  background-color: transparent;
+  -webkit-box-shadow: inset 0px 0px 100px #e2e2e2;
+  box-shadow: inset 0px 0px 100px #e2e2e2;
+}
+
 /* OASP-CONTAINER*/
 
 .OASP-CONTAINER {
   padding-top: 80px;
 }
 
-/* OASP (buttons) */
+/* OASP */
 
 .OASP {
-  font-family: montserrat-regular;
+  font-family: montserrat-light;
 }
 
-.OASP-light {
-  font-family: montserrat-light;
+.OASP h1 {
+padding: 40px;}
+
+.OASPcolor {
+  color: var(--main-theme-color);
 }
 
 .OASP .btn {
@@ -91,10 +149,23 @@ html {
   color: var(--main-theme-color);
 }
 
-/* OASP-CONTAINER: Overview Section */
-.box-bottom-shadow {
-  box-shadow: 0px 12px 6px -4px #4445;
+.timeline-icon {
+    background: #fff;
+    color: #58ACFA;
+    display: block;
+    width: 40px;
+    height: 40px;
+    background-clip: padding-box;
+    border-radius: 20px;
+    text-align: center;
+    -webkit-box-shadow: 0 0 0 5px #58ACFA;
+    box-shadow: 0 0 0 2px #58ACFA;
+    line-height: 40px;
+    font-size: 15px;
+    font-weight: bold;
+    float: left;
 }
+
 
 /* OASP-SIDEBAR */
 
@@ -113,11 +184,11 @@ html {
   color: black;
 }
 
-.OASP-SIDEBAR a.active {
+.OASP-SIDEBAR a.active{
   color: var(--main-theme-color);
 }
 
-.OASP-SIDEBAR a:hover {
+.OASP-SIDEBAR a:hover{
   color: var(--main-theme-color);
 }
 
