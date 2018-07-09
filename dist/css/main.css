@@ -103,6 +103,10 @@ div {
   box-shadow: inset 0px 0px 100px #e2e2e2;
 }
 
+.OASParticle {
+  padding: 10px;
+}
+
 /* OASP-CONTAINER*/
 
 .OASP-CONTAINER {
