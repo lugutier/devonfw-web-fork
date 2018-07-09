@@ -35,6 +35,9 @@ div {
 
 .OASP4J-background {
   background: url('../../assets/images/corte_4.png') left no-repeat;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center; 
   font-family: Montserrat-Regular;
   z-index: 1;
 }
