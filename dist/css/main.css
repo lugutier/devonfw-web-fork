@@ -238,7 +238,7 @@ padding: 40px;}
 }
 
 #tab-bar {
-    background: url(http://www.devonfw.com/corte_2.3b3ff4230c02447e92f5.png) -580px -300px;
+    background: url(http://www.devonfw.com/corte_2.3b3ff4230c02447e92f5.png) -680px -300px;
     background-size: contain;
     background-repeat: no-repeat;
     -webkit-box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
@@ -246,6 +246,16 @@ padding: 40px;}
     padding: 40px 0px 30px;
     background-size: 100%;
 }
+
+.nav-link.active {
+    color: #0275d8 !important;
+    cursor: default;
+    background-color: rgba(255, 255, 255, 0.0) !important;
+    border-bottom: 3px solid #0275d8;
+    border-radius: 0px;
+    margin-bottom: 40px;
+}
+
 
 /* DEVONFW GOES OPEN SOURCE*/
 
