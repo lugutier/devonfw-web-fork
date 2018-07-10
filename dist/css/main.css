@@ -50,20 +50,63 @@ div {
 }
 
 .NAV-MENU a:hover {
-  color: #99b4bb !important;
+  color: #e6eaeb !important;
 }
 
-#itemOASP {
+.white-band-separator {
+  border-left: 1px solid #fff;
+  height: 1.5em;
+  margin-left: 1em;
+  margin-right: 1em;
+}
+
+#itemWhatsNew {
   position: fixed;
 }
 
+#itemWhatsNew a {
+  display: inline-block;
+  padding: 0.01em;
+}
+
+#itemXplore {
+  position: fixed;
+}
+
+#itemXplore a {
+  display: inline-block;
+  padding: 0.01em;
+  margin-left: 0.5em;
+}
+
+#itemCommunity {
+  position: fixed;
+}
+
+#itemCommunity a {
+  display: inline-block;
+  padding: 0.01em;
+  margin-left: 0.5em;
+}
+
+#itemResources {
+  position: fixed;
+}
+
+#itemResources a {
+  display: inline-block;
+  padding: 0.01em;
+  margin-left: 0.5em;
+}
+
 @media (max-width: 768px) {
-  #itemOASP {
+  #itemXplore,
+  #itemWhatsNew,
+  #itemResources {
     position: relative;
     text-align: center;
   }
 }
-
 /* FOOTER */
 
 .footer {
