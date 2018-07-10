@@ -34,6 +34,10 @@ div {
   box-shadow: 1px 1px 5px #222 !important;
 }
 
+.shadow-inset {
+  box-shadow: 0px 0px 200px #4444 inset !important;
+}
+
 /* NAVIGATION BAR */
 
 .NAV-MENU {
