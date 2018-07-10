@@ -236,6 +236,44 @@ div {
   color: var(--main-theme-color);
 }
 
+.OASPgallery {
+    -webkit-box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+    box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+    background: #ddd;
+    border-radius: 3px;
+    margin-bottom: 40px;
+    background-color: #4bbdec;
+    text-align: center;
+}
+
+.OASPgalleryimg{
+    width: auto;
+    height: 100px;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.OASPgallerydiv {
+    background-color: white;
+    padding: 15px;
+    text-align: left;
+    padding-top: 23px;
+    color: #4bbdec;
+    height: 70px;
+    border-bottom-left-radius: 3px;
+    border-bottom-right-radius: 3px;
+}
+
+#tab-bar {
+    background: url(http://www.devonfw.com/corte_2.3b3ff4230c02447e92f5.png) -580px -300px;
+    background-size: contain;
+    background-repeat: no-repeat;
+    -webkit-box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+    box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+    padding: 40px 0px 30px;
+    background-size: 100%;
+}
+
 /* DEVONFW GOES OPEN SOURCE*/
 
 .DEVONFW-GOES-OPENSOURCE {
