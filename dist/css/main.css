@@ -274,7 +274,7 @@ div {
     background-size: 100%;
 }
 
-.nav-link.active {
+#tab-bar .nav-link.active {
     color: #0275d8 !important;
     cursor: default;
     background-color: rgba(255, 255, 255, 0.0) !important;
