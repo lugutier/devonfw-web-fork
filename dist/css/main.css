@@ -12,13 +12,12 @@ html {
 }
 
 body {
-  position:relative;
+  position: relative;
 }
 
 div {
   word-wrap: break-word;
 }
-
 
 /* CUSTOM STYLES */
 
@@ -80,21 +79,20 @@ div {
 /* GETTING STARTED */
 
 .gettingStarted {
- right: 200px;
- padding-bottom: 5%;
+  right: 200px;
+  padding-bottom: 5%;
 }
 
 .gettingStarted img {
-    width: 50px;
-    padding: 0px;
-    margin-left: 30px;
+  width: 50px;
+  padding: 0px;
+  margin-left: 30px;
 }
 
-
 #gettingStarted a {
-    color: #4bbdec !important;
-    text-decoration: none;
-    font-weight: 700 !important;
+  color: #4bbdec !important;
+  text-decoration: none;
+  font-weight: 700 !important;
 }
 
 .sectionGrey {
@@ -120,7 +118,8 @@ div {
 }
 
 .OASP h1 {
-padding: 40px;}
+  padding: 40px;
+}
 
 .OASPcolor {
   color: var(--main-theme-color);
@@ -155,34 +154,33 @@ padding: 40px;}
 }
 
 .timeline-icon {
-    background: #fff;
-    color: #58ACFA;
-    display: block;
-    width: 40px;
-    height: 40px;
-    background-clip: padding-box;
-    border-radius: 20px;
-    text-align: center;
-    -webkit-box-shadow: 0 0 0 5px #58ACFA;
-    box-shadow: 0 0 0 2px #58ACFA;
-    line-height: 40px;
-    font-size: 15px;
-    font-weight: bold;
-    float: left;
+  background: #fff;
+  color: #58acfa;
+  display: block;
+  width: 40px;
+  height: 40px;
+  background-clip: padding-box;
+  border-radius: 20px;
+  text-align: center;
+  -webkit-box-shadow: 0 0 0 5px #58acfa;
+  box-shadow: 0 0 0 2px #58acfa;
+  line-height: 40px;
+  font-size: 15px;
+  font-weight: bold;
+  float: left;
 }
 
 .blueBar {
-    width: 70px;
-    border-bottom: 4px solid #4bbdec;
-    margin: 10px;
-    margin-bottom: 7%;
+  width: 70px;
+  border-bottom: 4px solid #4bbdec;
+  margin: 10px;
+  margin-bottom: 7%;
 }
 
 .OASPimg {
   height: 60px;
   width: 60px;
 }
-
 
 /* OASP-SIDEBAR */
 
@@ -201,68 +199,79 @@ padding: 40px;}
   color: black;
 }
 
-.OASP-SIDEBAR a.active{
+.OASP-SIDEBAR a.active {
   color: var(--main-theme-color);
 }
 
-.OASP-SIDEBAR a:hover{
+.OASP-SIDEBAR a:hover {
   color: var(--main-theme-color);
 }
 
 .OASPgallery {
-    -webkit-box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
-    box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
-    background: #ddd;
-    border-radius: 3px;
-    margin-bottom: 40px;
-    background-color: #4bbdec;
-    text-align: center;
+  -webkit-box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+  box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+  background: #ddd;
+  border-radius: 3px;
+  margin-bottom: 40px;
+  background-color: #4bbdec;
+  text-align: center;
 }
 
-.OASPgalleryimg{
-    width: auto;
-    height: 100px;
-    margin-top: 30px;
-    margin-bottom: 30px;
+.OASPgalleryimg {
+  width: auto;
+  height: 100px;
+  margin-top: 30px;
+  margin-bottom: 30px;
 }
 
 .OASPgallerydiv {
-    background-color: white;
-    padding: 12px;
-    text-align: left;
-    color: #4bbdec;
-    height: 70px;
-    border-bottom-left-radius: 3px;
-    border-bottom-right-radius: 3px;
+  background-color: white;
+  padding: 12px;
+  text-align: left;
+  color: #4bbdec;
+  height: 70px;
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
 
 #tab-bar {
-    background: url(http://www.devonfw.com/corte_2.3b3ff4230c02447e92f5.png) -680px -300px;
-    background-size: contain;
-    background-repeat: no-repeat;
-    -webkit-box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
-    box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
-    padding: 40px 0px 30px;
-    background-size: 100%;
+  background: url(http://www.devonfw.com/corte_2.3b3ff4230c02447e92f5.png) -680px -300px;
+  background-size: contain;
+  background-repeat: no-repeat;
+  -webkit-box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+  box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
+  padding: 40px 0px 30px;
+  background-size: 100%;
 }
 
 #tab-bar .nav-link.active {
-    color: #0275d8 !important;
-    cursor: default;
-    background-color: rgba(255, 255, 255, 0.0) !important;
-    border-bottom: 3px solid #0275d8;
-    border-radius: 0px;
-    margin-bottom: 40px;
+  color: #0275d8 !important;
+  cursor: default;
+  background-color: rgba(255, 255, 255, 0) !important;
+  border-bottom: 3px solid #0275d8;
+  border-radius: 0px;
+  margin-bottom: 40px;
 }
 
 /* COLLABORATION */
 #collaboration {
-  background: url(http://www.devonfw.com/github.474aa88ad1432269c893.png) center center no-repeat !important;
+  background: url(http://www.devonfw.com/github.474aa88ad1432269c893.png) center
+    center no-repeat !important;
   background-size: contain !important;
-    background-color: #ffffff !important;
-    background-position-y: 180px !important;
-    padding-bottom: 4em !important;
-    padding-top: 80px !important;
+  background-color: #ffffff !important;
+  background-position-y: 180px !important;
+  padding-bottom: 4em !important;
+  padding-top: 80px !important;
+}
+
+/* UNIVERSITY */
+#university {
+  background: url(http://www.devonfw.com/university.afe2df04c5af85ff3910.png) center center no-repeat !important;
+  background-color: white !important;
+  background-size: contain !important;
+  background-position-y: 250px !important;
+  padding-bottom: 4em !important;
+  padding-top: 120px !important;
 }
 
 /* DEVONFW GOES OPEN SOURCE*/
