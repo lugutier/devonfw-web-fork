@@ -25,65 +25,10 @@ div {
   background-color: var(--main-theme-color) !important;
 }
 
-.introduction-style {
-  /*background: url('../../assets/images/corte_4.png') left no-repeat;*/
-  background-color: var(--main-theme-color) !important;
-  font-family: Montserrat-Regular;
-  background-position: 5px;
-  background-size: cover;
-  box-shadow: 1px 1px 5px #222 !important;
-}
-
-.shadow-inset {
-  box-shadow: 0px 0px 200px #4444 inset !important;
-}
-
-/* SLIDESHOW */
-
-.slideshow-image-fit{
-  width: 100%;
-  height: auto;
-}
-
-.slideshow-move {
-  -webkit-animation-name: MOVE-BG;
-  -webkit-animation-duration: 15s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes MOVE-BG {
-  0% {
-    -webkit-transform: translate(0,0);
-  } 
-  20% {
-    -webkit-transform: translate(-16%,-9%);
-  }
-  30%{ 
-    -webkit-transform: translate(-16%,-9%);
-  }
-  70%{
-    -webkit-transform: translate(16%,9%);
-  }
-  80%{
-    -webkit-transform: translate(16%,9%);
-  }
-  100%{
-    -webkit-transform: translate(0,0);
-  }
-  /*from {
-     -webkit-transform: translateX(0);
-   }
-   to { 
-     -webkit-transform: translateX(-187%);
-   }*/
-}
-
 /* NAVIGATION BAR */
 
 .NAV-MENU {
   background-color: var(--main-theme-color) !important;
-  box-shadow: 1px 1px 5px #222;
 }
 
 .NAV-MENU a {
@@ -91,65 +36,34 @@ div {
 }
 
 .NAV-MENU a:hover {
-  color: #e6eaeb !important;
+  color: #61a9bd !important;
 }
 
-.white-band-separator {
-  border-left: 1px solid #fff;
-  height: 1.5em;
-  margin-left: 1em;
-  margin-right: 1em;
-}
-
-#itemWhatsNew {
-  position: fixed;
-}
-
-#itemWhatsNew a {
+.submenu-technologystack:hover {
   display: inline-block;
-  padding: 0.01em;
+  position: absolute;
+  list-style: none;
 }
 
-#itemXplore {
+#itemOASP {
   position: fixed;
-}
-
-#itemXplore a {
-  display: inline-block;
-  padding: 0.01em;
-  margin-left: 0.5em;
-}
-
-#itemCommunity {
-  position: fixed;
-}
-
-#itemCommunity a {
-  display: inline-block;
-  padding: 0.01em;
-  margin-left: 0.5em;
-}
-
-#itemResources {
-  position: fixed;
-}
-
-#itemResources a {
-  display: inline-block;
-  padding: 0.01em;
-  margin-left: 0.5em;
 }
 
 @media (max-width: 768px) {
-  #itemXplore,
-  #itemWhatsNew,
-  #itemResources {
+  #itemOASP {
     position: relative;
     text-align: center;
   }
-  #titles {
-    font-size: 95%;
-  }
+}
+
+.submenu-technologystack a {
+  display: none;
+  position: absolute;
+}
+
+.submenu-technologystack a:hover {
+  display: block;
+  background-color: #61a9bd;
 }
 
 /* FOOTER */
@@ -256,6 +170,18 @@ div {
   float: left;
 }
 
+.blueBar {
+  width: 70px;
+  border-bottom: 4px solid #4bbdec;
+  margin: 10px;
+  margin-bottom: 7%;
+}
+
+.OASPimg {
+  height: 60px;
+  width: 60px;
+}
+
 /* OASP-SIDEBAR */
 
 .OASP-SIDEBAR {
@@ -300,9 +226,8 @@ div {
 
 .OASPgallerydiv {
   background-color: white;
-  padding: 15px;
+  padding: 12px;
   text-align: left;
-  padding-top: 23px;
   color: #4bbdec;
   height: 70px;
   border-bottom-left-radius: 3px;
@@ -328,6 +253,27 @@ div {
   margin-bottom: 40px;
 }
 
+/* COLLABORATION */
+#collaboration {
+  background: url(http://www.devonfw.com/github.474aa88ad1432269c893.png) center
+    center no-repeat !important;
+  background-size: contain !important;
+  background-color: #ffffff !important;
+  background-position-y: 180px !important;
+  padding-bottom: 4em !important;
+  padding-top: 80px !important;
+}
+
+/* UNIVERSITY */
+#university {
+  background: url(http://www.devonfw.com/university.afe2df04c5af85ff3910.png) center center no-repeat !important;
+  background-color: white !important;
+  background-size: contain !important;
+  background-position-y: 250px !important;
+  padding-bottom: 4em !important;
+  padding-top: 120px !important;
+}
+
 /* DEVONFW GOES OPEN SOURCE*/
 
 .DEVONFW-GOES-OPENSOURCE {
@@ -335,20 +281,6 @@ div {
     no-repeat;
   background-color: var(--main-theme-color);
   background-size: cover;
-}
-
-
-/* TESTIMONIALS */
-
-.bg-quote {
-
-}
-
-.bg-testimonial{
-  background-image: url('/assets/images/testimonials/bg-testimonials.png');
-  background-position: bottom;
-  background-repeat: no-repeat;
-  background-size: contain;
 }
 
 /* FONTS */
