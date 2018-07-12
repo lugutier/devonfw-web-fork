@@ -337,6 +337,20 @@ div {
   background-size: cover;
 }
 
+
+/* TESTIMONIALS */
+
+.bg-quote {
+
+}
+
+.bg-testimonial{
+  background-image: url('/assets/images/testimonials/bg-testimonials.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
+}
+
 /* FONTS */
 
 @font-face {
