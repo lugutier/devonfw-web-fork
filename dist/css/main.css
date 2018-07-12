@@ -255,6 +255,15 @@ padding: 40px;}
     margin-bottom: 40px;
 }
 
+/* COLLABORATION */
+#collaboration {
+  background: url(http://www.devonfw.com/github.474aa88ad1432269c893.png) center center no-repeat !important;
+  background-size: contain !important;
+    background-color: #ffffff !important;
+    background-position-y: 180px !important;
+    padding-bottom: 4em !important;
+    padding-top: 80px !important;
+}
 
 /* DEVONFW GOES OPEN SOURCE*/
 
