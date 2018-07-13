@@ -341,7 +341,8 @@ div {
 .framework-bg {
   background: url('/assets/images/backgrounds/on_the_flexible_solution.png')
     center no-repeat;
-  background-size: cover;
+  background-size: contain;
+  background-position: bottom;
 }
 
 /* FONTS */
