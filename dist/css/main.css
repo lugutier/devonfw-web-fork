@@ -325,6 +325,11 @@ div {
   margin-bottom: 40px;
 }
 
+#why-devonfw img {
+  max-width: 150px;
+  max-height: 150px;
+}
+
 /* DEVONFW GOES OPEN SOURCE*/
 
 .DEVONFW-GOES-OPENSOURCE {
