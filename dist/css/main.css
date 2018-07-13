@@ -299,7 +299,7 @@ div {
   background-color: white;
   padding: 15px;
   text-align: left;
-  padding-top: 23px;
+  padding-top: 12px;
   color: #4bbdec;
   height: 70px;
   border-bottom-left-radius: 3px;
@@ -307,7 +307,7 @@ div {
 }
 
 #tab-bar {
-  background: url(http://www.devonfw.com/corte_2.3b3ff4230c02447e92f5.png) -680px -300px;
+  background: url(/assets/images/corte5.png) -680px -300px;
   background-size: contain;
   background-repeat: no-repeat;
   -webkit-box-shadow: 0 0 30px rgba(68, 68, 68, 0.3);
@@ -323,6 +323,11 @@ div {
   border-bottom: 3px solid #0275d8;
   border-radius: 0px;
   margin-bottom: 40px;
+}
+
+#why-devonfw img {
+  max-width: 150px;
+  max-height: 150px;
 }
 
 /* DEVONFW GOES OPEN SOURCE*/
@@ -342,11 +347,22 @@ div {
   background-position: bottom;
 }
 
+/* COLLABORATION */
 
-/* TESTIMONIALS */
+#collaboration {
+  background-image: url('/assets/images/backgrounds/github-bg.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;  
+}
 
-.bg-quote {
+/* UNIVERSITY */
 
+#university {
+  background-image: url('/assets/images/backgrounds/university-bg.png');
+  background-position: bottom;
+  background-repeat: no-repeat;
+  background-size: contain;
 }
 
 .bg-testimonial{
