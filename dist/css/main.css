@@ -40,7 +40,7 @@ div {
 
 /* SLIDESHOW */
 
-.slideshow-image-fit{
+.slideshow-image-fit {
   width: 100%;
   height: auto;
 }
@@ -54,22 +54,22 @@ div {
 
 @-webkit-keyframes MOVE-BG {
   0% {
-    -webkit-transform: translate(0,0);
-  } 
+    -webkit-transform: translate(0, 0);
+  }
   20% {
-    -webkit-transform: translate(-16%,-9%);
+    -webkit-transform: translate(-16%, -9%);
   }
-  30%{ 
-    -webkit-transform: translate(-16%,-9%);
+  30% {
+    -webkit-transform: translate(-16%, -9%);
   }
-  70%{
-    -webkit-transform: translate(16%,9%);
+  70% {
+    -webkit-transform: translate(16%, 9%);
   }
-  80%{
-    -webkit-transform: translate(16%,9%);
+  80% {
+    -webkit-transform: translate(16%, 9%);
   }
-  100%{
-    -webkit-transform: translate(0,0);
+  100% {
+    -webkit-transform: translate(0, 0);
   }
   /*from {
      -webkit-transform: translateX(0);
@@ -330,7 +330,14 @@ div {
 .DEVONFW-GOES-OPENSOURCE {
   background: url('/assets/images/backgrounds/backgroung-laptop.png') center
     no-repeat;
-  background-color: var(--main-theme-color);
+  background-size: cover;
+}
+
+/* LANDING PAGE - FRAMEWORK SECTION */
+
+.framework-bg {
+  background: url('/assets/images/backgrounds/on_the_flexible_solution.png')
+    center no-repeat;
   background-size: cover;
 }
 
