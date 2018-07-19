@@ -6,7 +6,13 @@ $(document).ready(function () {
 
 function loadInsertions() {
     $("insertHtml").each(function (i) {
-        $(this).load($(this).attr("url"));
+        let url = $(this).attr("url");
+        $(this).load(url.concat("/component.html"));
+        $("<link/>", {
+            rel: "stylesheet",
+            type: "text/css",
+            href: url.concat("/component.css")
+        }).appendTo("head");
     });
 }
 
