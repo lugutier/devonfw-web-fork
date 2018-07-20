@@ -25,13 +25,8 @@ div {
   background-color: var(--main-theme-color) !important;
 }
 
-.introduction-style {
-  /*background: url('../../assets/images/corte_4.png') left no-repeat;*/
-  background-color: var(--main-theme-color) !important;
+.font-regular {
   font-family: Montserrat-Regular;
-  background-position: 5px;
-  background-size: cover;
-  box-shadow: 1px 1px 5px #222 !important;
 }
 
 .shadow-inset {
@@ -45,45 +40,11 @@ div {
   height: auto;
 }
 
-.slideshow-move {
-  -webkit-animation-name: MOVE-BG;
-  -webkit-animation-duration: 15s;
-  -webkit-animation-timing-function: linear;
-  -webkit-animation-iteration-count: infinite;
-}
-
-@-webkit-keyframes MOVE-BG {
-  0% {
-    -webkit-transform: translate(0, 0);
-  }
-  20% {
-    -webkit-transform: translate(-16%, -9%);
-  }
-  30% {
-    -webkit-transform: translate(-16%, -9%);
-  }
-  70% {
-    -webkit-transform: translate(16%, 9%);
-  }
-  80% {
-    -webkit-transform: translate(16%, 9%);
-  }
-  100% {
-    -webkit-transform: translate(0, 0);
-  }
-  /*from {
-     -webkit-transform: translateX(0);
-   }
-   to { 
-     -webkit-transform: translateX(-187%);
-   }*/
-}
-
 /* NAVIGATION BAR */
 
 .NAV-MENU {
   background-color: var(--main-theme-color) !important;
-  box-shadow: 1px 1px 5px #222;
+  /*box-shadow: 1px 1px 5px #222;*/
 }
 
 .NAV-MENU a {
@@ -333,9 +294,8 @@ div {
 /* DEVONFW GOES OPEN SOURCE*/
 
 .DEVONFW-GOES-OPENSOURCE {
-  background: url('/assets/images/backgrounds/backgroung-laptop.png') center
-    no-repeat;
-  background-size: cover;
+  background: url('/assets/images/backgrounds/backgroung-laptop.png') right no-repeat;
+  background-size: auto 100% !important;
 }
 
 /* LANDING PAGE - FRAMEWORK SECTION */
