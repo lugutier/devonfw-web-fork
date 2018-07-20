@@ -70,3 +70,11 @@ Example:
 ...
 ```
 
+### Implementing Markdown files
+1. Preferably place your Markdown file in `/dist/assets/markdown/` (note that `dist` is probably your root directory and therefore doesn't have to be specified)
+2. Use the `insertMd` HTML tag and specify the actual Markdown file with the `src` parameter.
+Example:
+```
+<insertMd src="/assets/markdown/helloworld.md"></insertMd>
+```
+3. The `loadMarkdownInsertions()` function at `main.js` will deal with the conversion from Markdown to HTML and inject the content.
