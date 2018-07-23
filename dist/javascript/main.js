@@ -9,6 +9,7 @@ function loadInsertions() {
         let url = $(this).attr("url");
         $(this).load(url.concat("/component.html"), function() {
             loadMarkdownInsertions();
+            loadAsciidocInsertions();
         });
         $("<link/>", {
             rel: "stylesheet",
@@ -24,6 +25,15 @@ function loadMarkdownInsertions() {
         fetch($(this).attr("src"))
         .then(response => response.text())
         .then(text => $(this).empty().append(md.render(text)))
+    });
+}
+
+function loadAsciidocInsertions() {
+    var ad = window.ad;
+    $("insertAd").each(function (i) {
+        fetch($(this).attr("src"))
+        .then(response => response.text())
+        .then(text => $(this).empty().append(ad.convert(text)))
     });
 }
 
