@@ -5,7 +5,6 @@ $(document).ready(function () {
 
 
 function loadInsertions() {
-    console.log("loadInsertions");
     $("insertHtml").each(function (i) {
         let url = $(this).attr("url");
         $(this).load(url.concat("/component.html"), function() {
@@ -16,8 +15,6 @@ function loadInsertions() {
             type: "text/css",
             href: url.concat("/component.css")
         }).appendTo("head");
-
-        console.log("Appending in loadInsertions");
     });
 }
 
