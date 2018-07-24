@@ -5,6 +5,7 @@ $(document).ready(function () {
 function loadInsertions(view) {
     view.find("insertHtml").each(function (i) {
         let url = $(this).attr("url");
+        $(this).addClass("d-none");
         $(this).load(url.concat("/component.html"), function () {
             loadInsertions($(this));
             loadMarkdownInsertions($(this));
@@ -46,14 +47,18 @@ function hideAndShowNetworkElements(view) {
         timeout: 2000,
         error: function (hrx, textStatus, error) {
             if (textStatus === 'parsererror') {
-                $('.only-internal').show();
-                $('.only-external').hide();
+                $('.only-internal').show(removeInvisibility(view));
+                $('.only-external').hide(removeInvisibility(view));
             } else {
-                $('.only-internal').hide();
-                $('.only-external').show();
+                $('.only-internal').hide(removeInvisibility(view));
+                $('.only-external').show(removeInvisibility(view));
             }
         }
     });
+}
+
+function removeInvisibility(view) {
+    view.removeClass("d-none");
 }
 
 function initTooltips(view) {
