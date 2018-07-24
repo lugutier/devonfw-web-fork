@@ -19,3 +19,19 @@
 #overview-sample-application .btn {
 	font-size: 12pt !important;
 }
+
+.cut-tl {
+	position: relative;
+}
+
+.cut-tl::before{
+    content: '';
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    width: 0;
+    height: 0;
+    border-right: 50px solid transparent !important;
+    border-top: 50px solid var(--main-theme-color);
+    clear: both;
+}
