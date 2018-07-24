@@ -353,3 +353,11 @@ div {
   font-family: montserrat-Extralight;
   src: url('/assets/fonts/Montserrat-ExtraLight.ttf');
 }
+
+.anchorSection::before { 
+  display: block; 
+  content: " "; 
+  margin-top: -75px; 
+  height: 75px; 
+  visibility: hidden; 
+}
