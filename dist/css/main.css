@@ -290,7 +290,17 @@ div {
   z-index: 1;
 }
 
+.DEVON-SIDEBAR-NO-SHADOW {
+  background-color: white !important;
+  padding: 0px;
+  z-index: 1;
+}
+
 .DEVON-SIDEBAR li {
+  border-left: 6px solid var(--main-theme-color);
+}
+
+.DEVON-SIDEBAR-NO-SHADOW li {
   border-left: 6px solid var(--main-theme-color);
 }
 
@@ -298,11 +308,23 @@ div {
   color: black;
 }
 
+.DEVON-SIDEBAR-NO-SHADOW a {
+  color: black;
+}
+
 .DEVON-SIDEBAR a.active {
   color: var(--main-theme-color);
 }
 
+.DEVON-SIDEBAR-NO-SHADOW a.active {
+  color: var(--main-theme-color);
+}
+
 .DEVON-SIDEBAR a:hover {
+  color: var(--main-theme-color);
+}
+
+.DEVON-SIDEBAR-NO-SHADOW a:hover {
   color: var(--main-theme-color);
 }
 
