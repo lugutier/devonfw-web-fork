@@ -116,7 +116,9 @@ div {
 /* FOOTER */
 
 .footer {
-  background: url('../../assets/images/capgemini.png') center no-repeat;
+  position: relative;
+  bottom: -100%;
+  background: url('/assets/images/capgemini.png') center no-repeat;
   font-family: Montserrat-Regular;
   background-position-y: 250px;
   background-size: cover;
